@@ -12,9 +12,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
 fi
 
 
-REPO=`git config remote.origin.url`
-SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
-SHA=`git rev-parse --verify HEAD`
+REPO=`https://${GITHUB_API_KEY}@github.com/JacobGathof/test-ci-repo.git`
 
 
 git clone $REPO out
@@ -36,5 +34,5 @@ fi
 
 
 git add -A .
-git commit -m "Deploy to GitHub Pages: ${SHA}"
-git push $SSH_REPO $TARGET_BRANCH
+git commit -m "Deploy to GitHub Pages"
+git push $TARGET_BRANCH
