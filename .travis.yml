@@ -1,4 +1,4 @@
-langauge : csharp
+language : csharp
 deploy:
   provider: script
   script: bash scripts/deploy.sh
