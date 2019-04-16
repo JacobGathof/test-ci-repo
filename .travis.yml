@@ -1,6 +1,10 @@
 language : generic
 script: bash scripts/deploy.sh
 
+addons:
+  homebrew:
+    packages: docfx
+
 deploy:
     provider: pages
     skip_cleanup: true
