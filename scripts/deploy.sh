@@ -5,5 +5,5 @@ ls
 sudo apt-get install unzip
 wget -O docfxzip.zip https://github.com/dotnet/docfx/releases/download/v2.41/docfx.zip
 unzip docfxzip.zip -d dfxd
-chmod +x dxfd/docfx.exe
+ls
 sudo dfxd/docfx.exe docfx/docfx.json
