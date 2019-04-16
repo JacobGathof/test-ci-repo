@@ -1,9 +1,7 @@
 language : generic
+os: windows
 script: bash scripts/deploy.sh
 
-addons:
-  homebrew:
-    packages: docfx
 
 deploy:
     provider: pages
