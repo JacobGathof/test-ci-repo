@@ -26,7 +26,7 @@ cd ..
 
 cd out
 git config user.name "Travis CI"
-git config user.email "$COMMIT_AUTHOR_EMAIL"
+git config user.email "$travis@travis-ci.org"
 
 
 if git diff --quiet; then
