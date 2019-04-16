@@ -1,6 +1,2 @@
-language : csharp
-deploy:
-  provider: script
-  script: bash scripts/deploy.sh
-  on:
-    branch: master
+language : generic
+script: bash scripts/deploy.sh
