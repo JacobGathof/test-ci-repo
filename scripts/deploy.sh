@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -ev
 echo "Testing Build Process"
 cd JacobGathof/test-ci-repo
 choco install docfx -y
