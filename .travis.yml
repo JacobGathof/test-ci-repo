@@ -1,2 +1,15 @@
 language : generic
-script: bash scripts/deploy.sh
+
+
+deploy:
+    provider: script
+    script: bash scripts/deploy.sh
+    on:
+      branch: master
+  
+    provider: pages
+    skip_cleanup: true
+    github_token: $GITHUB_API_KEY
+    keep_history: false
+    on:
+        branch: master
