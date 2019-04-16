@@ -1,6 +1,6 @@
 language : csharp
 script: bash scripts/deploy.sh
-
+dotnet: 4.6.1
 
 deploy:
     provider: pages
