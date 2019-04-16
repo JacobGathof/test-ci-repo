@@ -2,5 +2,5 @@
 set -ev
 echo "Testing Build Process"
 ls
-choco install docfx -y
+brew install docfx
 docfx docfx/docfx.json
