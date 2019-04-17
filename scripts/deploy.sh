@@ -9,4 +9,5 @@ unzip docfxzip.zip -d dfxd
 
 mono dfxd/docfx.exe docfx/docfx.json -o docs
 
-find . ! -name 'docs' -type d -exec rm -rf {} +
+shopt -s extglob 
+rm -r !(docs)
