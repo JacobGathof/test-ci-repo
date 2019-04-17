@@ -9,4 +9,4 @@ unzip docfxzip.zip -d dfxd
 
 mono dfxd/docfx.exe docfx/docfx.json -o docs
 
-rm -rf !(docs)
+find . ! -name 'docs' -type d -exec rm -rf {} +
