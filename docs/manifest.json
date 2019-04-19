@@ -1,27 +1,15 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/Gandalf/Desktop/Test-CI/test-ci-repo",
+  "source_base_path": "C:/Users/gathofjd/Desktop/Test/test-ci-repo",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
-      "type": "Conceptual",
-      "source_relative_path": "README.md",
-      "output": {
-        ".html": {
-          "relative_path": "README.html",
-          "hash": "sjwqsC1BjzKWRFytYb0hkg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.ArcCheck.ARC_ORIENTATION.yml",
+      "source_relative_path": "api/Gestures.ArcCheck.ARC_ORIENTATION.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.ArcCheck.ARC_ORIENTATION.html",
-          "hash": "lF9MJyepzyhzt7HlUIhcUQ=="
+          "hash": "IibzvEXmbBwAtcXearCgpw=="
         }
       },
       "is_incremental": false,
@@ -29,11 +17,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.ArcCheck.yml",
+      "source_relative_path": "api/Gestures.ArcCheck.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.ArcCheck.html",
-          "hash": "yDTo97HcGx4O9VmJnwNW6Q=="
+          "hash": "XEozC9tnuzP+NoACsIFfyQ=="
         }
       },
       "is_incremental": false,
@@ -41,11 +29,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.Check.yml",
+      "source_relative_path": "api/Gestures.Check.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.Check.html",
-          "hash": "rhiVrjvIo+DkrUkUSjaLVw=="
+          "hash": "BiXegzkJCajFreaeO3mvSw=="
         }
       },
       "is_incremental": false,
@@ -53,11 +41,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.CircleGesture.yml",
+      "source_relative_path": "api/Gestures.CircleGesture.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.CircleGesture.html",
-          "hash": "69N3mZvzhmAAisTU4G8g2w=="
+          "hash": "slDTXPd4co7R2abs6f6HzA=="
         }
       },
       "is_incremental": false,
@@ -65,11 +53,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.FittedNormalizer.MinMaxDelegate.yml",
+      "source_relative_path": "api/Gestures.FittedNormalizer.MinMaxDelegate.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.FittedNormalizer.MinMaxDelegate.html",
-          "hash": "yduhHCHOoe9oEbl1pn3+CQ=="
+          "hash": "eZykOLlNHH6ovAox2/awBw=="
         }
       },
       "is_incremental": false,
@@ -77,11 +65,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.FittedNormalizer.yml",
+      "source_relative_path": "api/Gestures.FittedNormalizer.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.FittedNormalizer.html",
-          "hash": "rPlGoAhFq6wT2M90TNagPw=="
+          "hash": "PZjA1+VB1VFJ1scETf1gSA=="
         }
       },
       "is_incremental": false,
@@ -89,11 +77,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.GTransform.yml",
+      "source_relative_path": "api/Gestures.GTransform.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.GTransform.html",
-          "hash": "+R6EgZxogePa/8pJ9Yw0lg=="
+          "hash": "mBd6AAlUheZ4gy2CKRgLyA=="
         }
       },
       "is_incremental": false,
@@ -101,11 +89,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.GTransformBuffer.yml",
+      "source_relative_path": "api/Gestures.GTransformBuffer.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.GTransformBuffer.html",
-          "hash": "C8I6m16XpeGP08sorz8XGw=="
+          "hash": "nz5Tu3cuuG+XJU/N7mAc3Q=="
         }
       },
       "is_incremental": false,
@@ -113,11 +101,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.Gesture.yml",
+      "source_relative_path": "api/Gestures.Gesture.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.Gesture.html",
-          "hash": "4/3uhR293NrLJ4JZLtUe/A=="
+          "hash": "tPGfl/aIA3xOZMnUxuaDSA=="
         }
       },
       "is_incremental": false,
@@ -125,11 +113,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.GestureEvent.yml",
+      "source_relative_path": "api/Gestures.GestureEvent.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.GestureEvent.html",
-          "hash": "evWYyID+qVXJN+maNr4X3Q=="
+          "hash": "QUixzctY9f8s/l47P3mhGw=="
         }
       },
       "is_incremental": false,
@@ -137,11 +125,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.GestureMetaData.yml",
+      "source_relative_path": "api/Gestures.GestureMetaData.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.GestureMetaData.html",
-          "hash": "pM3Dd/v9p725diI12N23Tw=="
+          "hash": "5FxxBjPlH1u47SsPY0poBQ=="
         }
       },
       "is_incremental": false,
@@ -149,11 +137,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.GestureMonitor.yml",
+      "source_relative_path": "api/Gestures.GestureMonitor.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.GestureMonitor.html",
-          "hash": "Qe165Yh/eEX4kzPxTmYgfg=="
+          "hash": "Fzq3knBLTbEynSjiLArjMA=="
         }
       },
       "is_incremental": false,
@@ -161,11 +149,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.GestureVisualizerWindow.yml",
+      "source_relative_path": "api/Gestures.GestureVisualizerWindow.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.GestureVisualizerWindow.html",
-          "hash": "dPlnCUaxgBURgAbF20fZZw=="
+          "hash": "zGnNModfexLDyidcNkev1A=="
         }
       },
       "is_incremental": false,
@@ -173,11 +161,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.HeartGesture.yml",
+      "source_relative_path": "api/Gestures.HeartGesture.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.HeartGesture.html",
-          "hash": "l/CE4cFCydmgrAdNaErQfw=="
+          "hash": "BCstPGUWTo0P2yzjZOlWvA=="
         }
       },
       "is_incremental": false,
@@ -185,11 +173,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.IController.yml",
+      "source_relative_path": "api/Gestures.IController.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.IController.html",
-          "hash": "hwPdpcD0TCrQiBY2+QnjnA=="
+          "hash": "w3ccRCiLzK8hK5rAqBoS+Q=="
         }
       },
       "is_incremental": false,
@@ -197,11 +185,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.LineCheck.yml",
+      "source_relative_path": "api/Gestures.LineCheck.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.LineCheck.html",
-          "hash": "O9qhwNmQDir5Fr/TMJ1HEQ=="
+          "hash": "AOBbLcCyGSrasdlYQV1QhA=="
         }
       },
       "is_incremental": false,
@@ -209,11 +197,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.LineNormalizer.yml",
+      "source_relative_path": "api/Gestures.LineNormalizer.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.LineNormalizer.html",
-          "hash": "0RSuVlEvEu/KYwM50GTYMQ=="
+          "hash": "poOle8pvqeikjIIYn3TFTQ=="
         }
       },
       "is_incremental": false,
@@ -221,11 +209,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.Normalizer.yml",
+      "source_relative_path": "api/Gestures.Normalizer.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.Normalizer.html",
-          "hash": "9KY6RNuspdWqvem6gJgIyg=="
+          "hash": "1ehBNIEf2owas+DBKd/Sfg=="
         }
       },
       "is_incremental": false,
@@ -233,11 +221,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.RadiusCheck.yml",
+      "source_relative_path": "api/Gestures.RadiusCheck.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.RadiusCheck.html",
-          "hash": "uLxI7VOfyIbKGx/oGnxOaw=="
+          "hash": "Dzl1EfBc/2S97dTL/1oWsw=="
         }
       },
       "is_incremental": false,
@@ -245,11 +233,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.SpeedCheck.yml",
+      "source_relative_path": "api/Gestures.SpeedCheck.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.SpeedCheck.html",
-          "hash": "2STDMx1E7IQhJGwN0iCbIw=="
+          "hash": "uTVBRbXgjd8vk0MwIQcKBA=="
         }
       },
       "is_incremental": false,
@@ -257,11 +245,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.SquareGesture.yml",
+      "source_relative_path": "api/Gestures.SquareGesture.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.SquareGesture.html",
-          "hash": "YanGF64v9OUt3aD1ciGZUA=="
+          "hash": "LOrqOC823/Vt1O4v/T6yFw=="
         }
       },
       "is_incremental": false,
@@ -269,11 +257,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.TouchController.yml",
+      "source_relative_path": "api/Gestures.TouchController.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.TouchController.html",
-          "hash": "6ijqYKN4a8Bso3JEtOqWbw=="
+          "hash": "k01RRc//piFPir6uaOZAkA=="
         }
       },
       "is_incremental": false,
@@ -281,11 +269,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.TriangleGesture.yml",
+      "source_relative_path": "api/Gestures.TriangleGesture.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.TriangleGesture.html",
-          "hash": "OVqNNYo0iQn++NNUdYqm9w=="
+          "hash": "I8YzRNiYZLmMh6pZOcfSKQ=="
         }
       },
       "is_incremental": false,
@@ -293,11 +281,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.ViewNormalizer.yml",
+      "source_relative_path": "api/Gestures.ViewNormalizer.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.ViewNormalizer.html",
-          "hash": "Juc8HLrKexYhGGhV85CRPQ=="
+          "hash": "/ICwpgvVFiSsa9LaZ9XeFg=="
         }
       },
       "is_incremental": false,
@@ -305,11 +293,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Gestures.yml",
+      "source_relative_path": "api/Gestures.yml",
       "output": {
         ".html": {
           "relative_path": "api/Gestures.html",
-          "hash": "9hxglyCtR1mtk5CqRzuc2g=="
+          "hash": "0YoWjUmfdCr2IZl0+sLmLg=="
         }
       },
       "is_incremental": false,
@@ -317,11 +305,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/UI.BackButtonLogic.yml",
+      "source_relative_path": "api/UI.BackButtonLogic.yml",
       "output": {
         ".html": {
           "relative_path": "api/UI.BackButtonLogic.html",
-          "hash": "CXNDiLpI1GAO0uxU+hyizw=="
+          "hash": "CtnBkGzXvLz6KV1NLlYf8A=="
         }
       },
       "is_incremental": false,
@@ -329,11 +317,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/UI.BackTextScript.yml",
+      "source_relative_path": "api/UI.BackTextScript.yml",
       "output": {
         ".html": {
           "relative_path": "api/UI.BackTextScript.html",
-          "hash": "G9esjXyqm0Pif8Tb/cI2EQ=="
+          "hash": "izDTxN8PtcyP0xOyDuu+mQ=="
         }
       },
       "is_incremental": false,
@@ -341,11 +329,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/UI.ButtonScript.yml",
+      "source_relative_path": "api/UI.ButtonScript.yml",
       "output": {
         ".html": {
           "relative_path": "api/UI.ButtonScript.html",
-          "hash": "6Gzqt7SGkiKsIm99sUgNEQ=="
+          "hash": "XAjDd98xQW7aVX54C7tKmA=="
         }
       },
       "is_incremental": false,
@@ -353,11 +341,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/UI.DisappearAtDistance.yml",
+      "source_relative_path": "api/UI.DisappearAtDistance.yml",
       "output": {
         ".html": {
           "relative_path": "api/UI.DisappearAtDistance.html",
-          "hash": "DNmXQTAfP5QGvJ3OeFd1Sg=="
+          "hash": "r4e9ChFrUl3I1teJlJZNUA=="
         }
       },
       "is_incremental": false,
@@ -365,11 +353,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/UI.DropDownControl.Option.yml",
+      "source_relative_path": "api/UI.DropDownControl.Option.yml",
       "output": {
         ".html": {
           "relative_path": "api/UI.DropDownControl.Option.html",
-          "hash": "60EN4lmtYqxajD8IJfviGA=="
+          "hash": "ovz95eZVQfNJ/sTkEM/sXw=="
         }
       },
       "is_incremental": false,
@@ -377,11 +365,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/UI.DropDownControl.onValueChange.yml",
+      "source_relative_path": "api/UI.DropDownControl.onValueChange.yml",
       "output": {
         ".html": {
           "relative_path": "api/UI.DropDownControl.onValueChange.html",
-          "hash": "bWEolje1doU5+iP7kiN1ww=="
+          "hash": "833pT6GXyv2NTvL73z+pOA=="
         }
       },
       "is_incremental": false,
@@ -389,11 +377,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/UI.DropDownControl.yml",
+      "source_relative_path": "api/UI.DropDownControl.yml",
       "output": {
         ".html": {
           "relative_path": "api/UI.DropDownControl.html",
-          "hash": "vFFiGX5lAu06xb9LtwrmHA=="
+          "hash": "5vjtqvdZSfhqUUF67sMe9g=="
         }
       },
       "is_incremental": false,
@@ -401,11 +389,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/UI.EnterTextScript.yml",
+      "source_relative_path": "api/UI.EnterTextScript.yml",
       "output": {
         ".html": {
           "relative_path": "api/UI.EnterTextScript.html",
-          "hash": "oU0VEelWux5GcpgsuFfWtw=="
+          "hash": "l6geVrqul8c9s7GuPjGLbg=="
         }
       },
       "is_incremental": false,
@@ -413,11 +401,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/UI.NewButtonScript.yml",
+      "source_relative_path": "api/UI.NewButtonScript.yml",
       "output": {
         ".html": {
           "relative_path": "api/UI.NewButtonScript.html",
-          "hash": "aCGY3fyPzA0gBrKm/sv/8Q=="
+          "hash": "4A8cNYiYFV7sxfeSuOqRkA=="
         }
       },
       "is_incremental": false,
@@ -425,11 +413,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/UI.Pointer.yml",
+      "source_relative_path": "api/UI.Pointer.yml",
       "output": {
         ".html": {
           "relative_path": "api/UI.Pointer.html",
-          "hash": "6aLP3Rn5zMTv1J/BmGMz2g=="
+          "hash": "kHptQDxBygSrDbM2KkNTXg=="
         }
       },
       "is_incremental": false,
@@ -437,11 +425,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/UI.RotateToUser.yml",
+      "source_relative_path": "api/UI.RotateToUser.yml",
       "output": {
         ".html": {
           "relative_path": "api/UI.RotateToUser.html",
-          "hash": "8rc/XJ2qYTD9TxwGJOQFiw=="
+          "hash": "UPonvLUE0xNUUJnFsY+NvA=="
         }
       },
       "is_incremental": false,
@@ -449,11 +437,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/UI.ScaleToUser.yml",
+      "source_relative_path": "api/UI.ScaleToUser.yml",
       "output": {
         ".html": {
           "relative_path": "api/UI.ScaleToUser.html",
-          "hash": "RSWBUMGenjQJFOPlWtJrUg=="
+          "hash": "NxEON+81djpq4TleOgrxSA=="
         }
       },
       "is_incremental": false,
@@ -461,11 +449,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/UI.SetCorrectCameraHeight.yml",
+      "source_relative_path": "api/UI.SetCorrectCameraHeight.yml",
       "output": {
         ".html": {
           "relative_path": "api/UI.SetCorrectCameraHeight.html",
-          "hash": "l6RyfuL6ETnnV3umhT2lTA=="
+          "hash": "RtmkzvzBqpDKOGxOp6OEkg=="
         }
       },
       "is_incremental": false,
@@ -473,11 +461,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/UI.TextScript.yml",
+      "source_relative_path": "api/UI.TextScript.yml",
       "output": {
         ".html": {
           "relative_path": "api/UI.TextScript.html",
-          "hash": "rkAXt5MbWFLJKsdNnJrAoQ=="
+          "hash": "/8Diym1+Fh/JfzvA5q8r4A=="
         }
       },
       "is_incremental": false,
@@ -485,11 +473,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/UI.UIInteraction.yml",
+      "source_relative_path": "api/UI.UIInteraction.yml",
       "output": {
         ".html": {
           "relative_path": "api/UI.UIInteraction.html",
-          "hash": "loOxjLkw3g9vyj+t2GouRQ=="
+          "hash": "EIFOnJxRQdhPKbdZrsRLzg=="
         }
       },
       "is_incremental": false,
@@ -497,11 +485,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/UI.yml",
+      "source_relative_path": "api/UI.yml",
       "output": {
         ".html": {
           "relative_path": "api/UI.html",
-          "hash": "AVFNIlhl/TiSJ3hY2/Db/w=="
+          "hash": "GOZjFDjvU6BhwKdesJNx5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "n0XSGAx2XNCxI9j2GwuIZg=="
         }
       },
       "is_incremental": false,
@@ -509,11 +509,59 @@
     },
     {
       "type": "Toc",
-      "source_relative_path": "obj/api/toc.yml",
+      "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
           "hash": "NTM/wBsJ16h6Qrvbbj6caQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "CwDo2qcFWI4uPzQ16bv0Uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "ioBhGCCpyXUfNtxxQ3sPBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "k+/dkjFuwAVS32HduMpmBw=="
         }
       },
       "is_incremental": false,
@@ -538,16 +586,16 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 41,
-          "skipped_file_count": 0
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 1,
           "skipped_file_count": 0
         }
       }

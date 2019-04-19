@@ -5,17 +5,10 @@
         {
           "files": [
             "**.cs"
-          ],
-          "cwd": ".",
-          "exclude": [
-            "**/obj/**",
-            "**/bin/**",
-            "_site/**"
           ]
         }
-
       ],
-      "dest": "obj/api",
+      "dest": "api",
       "filter": "filterConfig.yml"
     }
   ],
@@ -24,19 +17,15 @@
       {
         "files": [
           "api/**.yml",
-        ],
-        "cwd": "obj"
+          "api/index.md"
+        ]
       },
       {
         "files": [
-          "api/*.md",
           "articles/**.md",
+          "articles/**/toc.yml",
           "toc.yml",
           "*.md"
-        ],
-        "exclude": [
-          "obj/**",
-          "_site/**"
         ]
       }
     ],
@@ -44,10 +33,6 @@
       {
         "files": [
           "images/**"
-        ],
-        "exclude": [
-          "obj/**",
-          "_site/**"
         ]
       }
     ],
@@ -58,13 +43,20 @@
         ],
         "exclude": [
           "obj/**",
-          "_site/**"
+          "docs/**"
         ]
       }
     ],
-    "dest": "_site",
+    "dest": "docs",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
     "template": [
       "default"
-    ]
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
   }
 }
