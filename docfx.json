@@ -17,7 +17,9 @@
       {
         "files": [
           "api/**.yml",
-          "api/index.md"
+          "api/index.md",
+		  "toc.yml",
+		  "index.md"
         ]
       },
     ],
