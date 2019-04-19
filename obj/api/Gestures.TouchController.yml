@@ -1,0 +1,347 @@
+### YamlMime:ManagedReference
+items:
+- uid: Gestures.TouchController
+  commentId: T:Gestures.TouchController
+  id: TouchController
+  parent: Gestures
+  children:
+  - Gestures.TouchController.controllerType
+  - Gestures.TouchController.GestureActive
+  - Gestures.TouchController.gestureActiveButton
+  - Gestures.TouchController.QueryGTransform
+  - Gestures.TouchController.vibrationAmplitude
+  - Gestures.TouchController.vibrationFrequency
+  langs:
+  - csharp
+  - vb
+  name: TouchController
+  nameWithType: TouchController
+  fullName: Gestures.TouchController
+  type: Class
+  source:
+    id: TouchController
+    path: ''
+    startLine: 700
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: "\nTouchController is a concrete implementation of the IController class, targeted at the Oculus Rift Touch Controllers\n"
+  example: []
+  syntax:
+    content: 'public class TouchController : IController'
+    content.vb: >-
+      Public Class TouchController
+
+          Inherits IController
+  inheritance:
+  - System.Object
+  - Gestures.IController
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Gestures.TouchController.controllerType
+  commentId: F:Gestures.TouchController.controllerType
+  id: controllerType
+  parent: Gestures.TouchController
+  langs:
+  - csharp
+  - vb
+  name: controllerType
+  nameWithType: TouchController.controllerType
+  fullName: Gestures.TouchController.controllerType
+  type: Field
+  source:
+    id: controllerType
+    path: ''
+    startLine: 703
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: 'The Touch Controller to use. Typically LTouch or RTouch for left and right hands. '
+  example: []
+  syntax:
+    content: public OVRInput.Controller controllerType
+    return:
+      type: OVRInput.Controller
+    content.vb: Public controllerType As OVRInput.Controller
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.TouchController.gestureActiveButton
+  commentId: F:Gestures.TouchController.gestureActiveButton
+  id: gestureActiveButton
+  parent: Gestures.TouchController
+  langs:
+  - csharp
+  - vb
+  name: gestureActiveButton
+  nameWithType: TouchController.gestureActiveButton
+  fullName: Gestures.TouchController.gestureActiveButton
+  type: Field
+  source:
+    id: gestureActiveButton
+    path: ''
+    startLine: 706
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: 'The button which will activate a gesture '
+  example: []
+  syntax:
+    content: public OVRInput.Button gestureActiveButton
+    return:
+      type: OVRInput.Button
+    content.vb: Public gestureActiveButton As OVRInput.Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.TouchController.vibrationFrequency
+  commentId: F:Gestures.TouchController.vibrationFrequency
+  id: vibrationFrequency
+  parent: Gestures.TouchController
+  langs:
+  - csharp
+  - vb
+  name: vibrationFrequency
+  nameWithType: TouchController.vibrationFrequency
+  fullName: Gestures.TouchController.vibrationFrequency
+  type: Field
+  source:
+    id: vibrationFrequency
+    path: ''
+    startLine: 708
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public float vibrationFrequency
+    return:
+      type: System.Single
+    content.vb: Public vibrationFrequency As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.TouchController.vibrationAmplitude
+  commentId: F:Gestures.TouchController.vibrationAmplitude
+  id: vibrationAmplitude
+  parent: Gestures.TouchController
+  langs:
+  - csharp
+  - vb
+  name: vibrationAmplitude
+  nameWithType: TouchController.vibrationAmplitude
+  fullName: Gestures.TouchController.vibrationAmplitude
+  type: Field
+  source:
+    id: vibrationAmplitude
+    path: ''
+    startLine: 709
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public float vibrationAmplitude
+    return:
+      type: System.Single
+    content.vb: Public vibrationAmplitude As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.TouchController.QueryGTransform
+  commentId: M:Gestures.TouchController.QueryGTransform
+  id: QueryGTransform
+  parent: Gestures.TouchController
+  langs:
+  - csharp
+  - vb
+  name: QueryGTransform()
+  nameWithType: TouchController.QueryGTransform()
+  fullName: Gestures.TouchController.QueryGTransform()
+  type: Method
+  source:
+    id: QueryGTransform
+    path: ''
+    startLine: 715
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: "\nGenerate the data representing the position, rotation, velocity, and timing data for the controller\n"
+  example: []
+  syntax:
+    content: public override GTransform QueryGTransform()
+    return:
+      type: Gestures.GTransform
+      description: Returns `GTransform` instance containing transform data
+    content.vb: Public Overrides Function QueryGTransform As GTransform
+  overridden: Gestures.IController.QueryGTransform
+  overload: Gestures.TouchController.QueryGTransform*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Gestures.TouchController.GestureActive
+  commentId: M:Gestures.TouchController.GestureActive
+  id: GestureActive
+  parent: Gestures.TouchController
+  langs:
+  - csharp
+  - vb
+  name: GestureActive()
+  nameWithType: TouchController.GestureActive()
+  fullName: Gestures.TouchController.GestureActive()
+  type: Method
+  source:
+    id: GestureActive
+    path: ''
+    startLine: 725
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: "\nThis method will query the controller to determine whether the gesture activation button is pressed on the correct controller\n"
+  example: []
+  syntax:
+    content: public override bool GestureActive()
+    return:
+      type: System.Boolean
+      description: Return `true` if the user is pressing the gesture button, `false` otherwise
+    content.vb: Public Overrides Function GestureActive As Boolean
+  overridden: Gestures.IController.GestureActive
+  overload: Gestures.TouchController.GestureActive*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Gestures
+  commentId: N:Gestures
+  name: Gestures
+  nameWithType: Gestures
+  fullName: Gestures
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Gestures.IController
+  commentId: T:Gestures.IController
+  parent: Gestures
+  name: IController
+  nameWithType: IController
+  fullName: Gestures.IController
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OVRInput.Controller
+  commentId: '!:OVRInput.Controller'
+  isExternal: true
+  name: OVRInput.Controller
+  nameWithType: OVRInput.Controller
+  fullName: OVRInput.Controller
+- uid: OVRInput.Button
+  commentId: '!:OVRInput.Button'
+  isExternal: true
+  name: OVRInput.Button
+  nameWithType: OVRInput.Button
+  fullName: OVRInput.Button
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Gestures.IController.QueryGTransform
+  commentId: M:Gestures.IController.QueryGTransform
+  parent: Gestures.IController
+  name: QueryGTransform()
+  nameWithType: IController.QueryGTransform()
+  fullName: Gestures.IController.QueryGTransform()
+  spec.csharp:
+  - uid: Gestures.IController.QueryGTransform
+    name: QueryGTransform
+    nameWithType: IController.QueryGTransform
+    fullName: Gestures.IController.QueryGTransform
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.IController.QueryGTransform
+    name: QueryGTransform
+    nameWithType: IController.QueryGTransform
+    fullName: Gestures.IController.QueryGTransform
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.TouchController.QueryGTransform*
+  commentId: Overload:Gestures.TouchController.QueryGTransform
+  name: QueryGTransform
+  nameWithType: TouchController.QueryGTransform
+  fullName: Gestures.TouchController.QueryGTransform
+- uid: Gestures.GTransform
+  commentId: T:Gestures.GTransform
+  parent: Gestures
+  name: GTransform
+  nameWithType: GTransform
+  fullName: Gestures.GTransform
+- uid: Gestures.IController.GestureActive
+  commentId: M:Gestures.IController.GestureActive
+  parent: Gestures.IController
+  name: GestureActive()
+  nameWithType: IController.GestureActive()
+  fullName: Gestures.IController.GestureActive()
+  spec.csharp:
+  - uid: Gestures.IController.GestureActive
+    name: GestureActive
+    nameWithType: IController.GestureActive
+    fullName: Gestures.IController.GestureActive
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.IController.GestureActive
+    name: GestureActive
+    nameWithType: IController.GestureActive
+    fullName: Gestures.IController.GestureActive
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.TouchController.GestureActive*
+  commentId: Overload:Gestures.TouchController.GestureActive
+  name: GestureActive
+  nameWithType: TouchController.GestureActive
+  fullName: Gestures.TouchController.GestureActive
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: Gestures.ArcCheck
+  commentId: T:Gestures.ArcCheck
+  id: ArcCheck
+  parent: Gestures
+  children:
+  - Gestures.ArcCheck.#ctor(Vector3,System.Single,Vector3,System.Single,Gestures.ArcCheck.ARC_ORIENTATION)
+  - Gestures.ArcCheck.CheckPasses(Gestures.GTransform)
+  - Gestures.ArcCheck.VisualizeCheck(Rect)
+  langs:
+  - csharp
+  - vb
+  name: ArcCheck
+  nameWithType: ArcCheck
+  fullName: Gestures.ArcCheck
+  type: Class
+  source:
+    id: ArcCheck
+    path: ''
+    startLine: 347
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: "\nAn Arc check in a single plane.\n"
+  example: []
+  syntax:
+    content: 'public class ArcCheck : Check'
+    content.vb: >-
+      Public Class ArcCheck
+
+          Inherits Check
+  inheritance:
+  - System.Object
+  - Gestures.Check
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Gestures.ArcCheck.#ctor(Vector3,System.Single,Vector3,System.Single,Gestures.ArcCheck.ARC_ORIENTATION)
+  commentId: M:Gestures.ArcCheck.#ctor(Vector3,System.Single,Vector3,System.Single,Gestures.ArcCheck.ARC_ORIENTATION)
+  id: '#ctor(Vector3,System.Single,Vector3,System.Single,Gestures.ArcCheck.ARC_ORIENTATION)'
+  parent: Gestures.ArcCheck
+  langs:
+  - csharp
+  - vb
+  name: ArcCheck(Vector3, Single, Vector3, Single, ArcCheck.ARC_ORIENTATION)
+  nameWithType: ArcCheck.ArcCheck(Vector3, Single, Vector3, Single, ArcCheck.ARC_ORIENTATION)
+  fullName: Gestures.ArcCheck.ArcCheck(Vector3, System.Single, Vector3, System.Single, Gestures.ArcCheck.ARC_ORIENTATION)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 371
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public ArcCheck(Vector3 startPosition, float degrees, Vector3 center, float precision = 0.4F, ArcCheck.ARC_ORIENTATION orientation = ArcCheck.ARC_ORIENTATION.XY)
+    parameters:
+    - id: startPosition
+      type: Vector3
+      description: The starting position of the arc.
+    - id: degrees
+      type: System.Single
+      description: Number of degrees to extent. MUST be between -90 and 90 degrees, otherwise unpredictable consequences occur.
+    - id: center
+      type: Vector3
+      description: The center point of circle on which the Arc lies.
+    - id: precision
+      type: System.Single
+      description: The distance tolerance from which a point can be considered within the arc.
+    - id: orientation
+      type: Gestures.ArcCheck.ARC_ORIENTATION
+      description: ARC_ORIENTATION enum, specifying which plane the arc resides in
+    content.vb: Public Sub New(startPosition As Vector3, degrees As Single, center As Vector3, precision As Single = 0.4F, orientation As ArcCheck.ARC_ORIENTATION = ArcCheck.ARC_ORIENTATION.XY)
+  overload: Gestures.ArcCheck.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.ArcCheck.CheckPasses(Gestures.GTransform)
+  commentId: M:Gestures.ArcCheck.CheckPasses(Gestures.GTransform)
+  id: CheckPasses(Gestures.GTransform)
+  parent: Gestures.ArcCheck
+  langs:
+  - csharp
+  - vb
+  name: CheckPasses(GTransform)
+  nameWithType: ArcCheck.CheckPasses(GTransform)
+  fullName: Gestures.ArcCheck.CheckPasses(Gestures.GTransform)
+  type: Method
+  source:
+    id: CheckPasses
+    path: ''
+    startLine: 393
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public override float CheckPasses(GTransform g)
+    parameters:
+    - id: g
+      type: Gestures.GTransform
+    return:
+      type: System.Single
+    content.vb: Public Overrides Function CheckPasses(g As GTransform) As Single
+  overridden: Gestures.Check.CheckPasses(Gestures.GTransform)
+  overload: Gestures.ArcCheck.CheckPasses*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Gestures.ArcCheck.VisualizeCheck(Rect)
+  commentId: M:Gestures.ArcCheck.VisualizeCheck(Rect)
+  id: VisualizeCheck(Rect)
+  parent: Gestures.ArcCheck
+  langs:
+  - csharp
+  - vb
+  name: VisualizeCheck(Rect)
+  nameWithType: ArcCheck.VisualizeCheck(Rect)
+  fullName: Gestures.ArcCheck.VisualizeCheck(Rect)
+  type: Method
+  source:
+    id: VisualizeCheck
+    path: ''
+    startLine: 418
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public override void VisualizeCheck(Rect grid)
+    parameters:
+    - id: grid
+      type: Rect
+    content.vb: Public Overrides Sub VisualizeCheck(grid As Rect)
+  overridden: Gestures.Check.VisualizeCheck(Rect)
+  overload: Gestures.ArcCheck.VisualizeCheck*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Gestures
+  commentId: N:Gestures
+  name: Gestures
+  nameWithType: Gestures
+  fullName: Gestures
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Gestures.Check
+  commentId: T:Gestures.Check
+  parent: Gestures
+  name: Check
+  nameWithType: Check
+  fullName: Gestures.Check
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Gestures.ArcCheck.#ctor*
+  commentId: Overload:Gestures.ArcCheck.#ctor
+  name: ArcCheck
+  nameWithType: ArcCheck.ArcCheck
+  fullName: Gestures.ArcCheck.ArcCheck
+- uid: Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Gestures.ArcCheck.ARC_ORIENTATION
+  commentId: T:Gestures.ArcCheck.ARC_ORIENTATION
+  parent: Gestures
+  name: ArcCheck.ARC_ORIENTATION
+  nameWithType: ArcCheck.ARC_ORIENTATION
+  fullName: Gestures.ArcCheck.ARC_ORIENTATION
+- uid: Gestures.Check.CheckPasses(Gestures.GTransform)
+  commentId: M:Gestures.Check.CheckPasses(Gestures.GTransform)
+  parent: Gestures.Check
+  name: CheckPasses(GTransform)
+  nameWithType: Check.CheckPasses(GTransform)
+  fullName: Gestures.Check.CheckPasses(Gestures.GTransform)
+  spec.csharp:
+  - uid: Gestures.Check.CheckPasses(Gestures.GTransform)
+    name: CheckPasses
+    nameWithType: Check.CheckPasses
+    fullName: Gestures.Check.CheckPasses
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Gestures.GTransform
+    name: GTransform
+    nameWithType: GTransform
+    fullName: Gestures.GTransform
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.Check.CheckPasses(Gestures.GTransform)
+    name: CheckPasses
+    nameWithType: Check.CheckPasses
+    fullName: Gestures.Check.CheckPasses
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Gestures.GTransform
+    name: GTransform
+    nameWithType: GTransform
+    fullName: Gestures.GTransform
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.ArcCheck.CheckPasses*
+  commentId: Overload:Gestures.ArcCheck.CheckPasses
+  name: CheckPasses
+  nameWithType: ArcCheck.CheckPasses
+  fullName: Gestures.ArcCheck.CheckPasses
+- uid: Gestures.GTransform
+  commentId: T:Gestures.GTransform
+  parent: Gestures
+  name: GTransform
+  nameWithType: GTransform
+  fullName: Gestures.GTransform
+- uid: Gestures.Check.VisualizeCheck(Rect)
+  commentId: M:Gestures.Check.VisualizeCheck(Rect)
+  parent: Gestures.Check
+  isExternal: true
+  name: VisualizeCheck(Rect)
+  nameWithType: Check.VisualizeCheck(Rect)
+  fullName: Gestures.Check.VisualizeCheck(Rect)
+  spec.csharp:
+  - uid: Gestures.Check.VisualizeCheck(Rect)
+    name: VisualizeCheck
+    nameWithType: Check.VisualizeCheck
+    fullName: Gestures.Check.VisualizeCheck
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.Check.VisualizeCheck(Rect)
+    name: VisualizeCheck
+    nameWithType: Check.VisualizeCheck
+    fullName: Gestures.Check.VisualizeCheck
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.ArcCheck.VisualizeCheck*
+  commentId: Overload:Gestures.ArcCheck.VisualizeCheck
+  name: VisualizeCheck
+  nameWithType: ArcCheck.VisualizeCheck
+  fullName: Gestures.ArcCheck.VisualizeCheck
+- uid: Rect
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: Rect

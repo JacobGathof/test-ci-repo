@@ -1,0 +1,734 @@
+### YamlMime:ManagedReference
+items:
+- uid: Gestures.GTransformBuffer
+  commentId: T:Gestures.GTransformBuffer
+  id: GTransformBuffer
+  parent: Gestures
+  children:
+  - Gestures.GTransformBuffer.#ctor(System.Int32)
+  - Gestures.GTransformBuffer.Clear
+  - Gestures.GTransformBuffer.Dequeue
+  - Gestures.GTransformBuffer.Enqueue(Gestures.GTransform)
+  - Gestures.GTransformBuffer.GetEnumerator
+  - Gestures.GTransformBuffer.SetCircular(System.Boolean)
+  - Gestures.GTransformBuffer.SetMaxSize(System.Int32)
+  - Gestures.GTransformBuffer.Size
+  - Gestures.GTransformBuffer.System#Collections#IEnumerable#GetEnumerator
+  - Gestures.GTransformBuffer.ToArray
+  langs:
+  - csharp
+  - vb
+  name: GTransformBuffer
+  nameWithType: GTransformBuffer
+  fullName: Gestures.GTransformBuffer
+  type: Class
+  source:
+    id: GTransformBuffer
+    path: ''
+    startLine: 1376
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: "\nInternal class which can behave as either a set-size array or a circular array. \n"
+  example: []
+  syntax:
+    content: 'public class GTransformBuffer : IEnumerable<GTransform>, IEnumerable'
+    content.vb: >-
+      Public Class GTransformBuffer
+
+          Implements IEnumerable(Of GTransform), IEnumerable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.Generic.IEnumerable{Gestures.GTransform}
+  - System.Collections.IEnumerable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Gestures.GTransformBuffer.#ctor(System.Int32)
+  commentId: M:Gestures.GTransformBuffer.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: Gestures.GTransformBuffer
+  langs:
+  - csharp
+  - vb
+  name: GTransformBuffer(Int32)
+  nameWithType: GTransformBuffer.GTransformBuffer(Int32)
+  fullName: Gestures.GTransformBuffer.GTransformBuffer(System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1382
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public GTransformBuffer(int maxSize)
+    parameters:
+    - id: maxSize
+      type: System.Int32
+    content.vb: Public Sub New(maxSize As Integer)
+  overload: Gestures.GTransformBuffer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.GTransformBuffer.Enqueue(Gestures.GTransform)
+  commentId: M:Gestures.GTransformBuffer.Enqueue(Gestures.GTransform)
+  id: Enqueue(Gestures.GTransform)
+  parent: Gestures.GTransformBuffer
+  langs:
+  - csharp
+  - vb
+  name: Enqueue(GTransform)
+  nameWithType: GTransformBuffer.Enqueue(GTransform)
+  fullName: Gestures.GTransformBuffer.Enqueue(Gestures.GTransform)
+  type: Method
+  source:
+    id: Enqueue
+    path: ''
+    startLine: 1387
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public void Enqueue(GTransform t)
+    parameters:
+    - id: t
+      type: Gestures.GTransform
+    content.vb: Public Sub Enqueue(t As GTransform)
+  overload: Gestures.GTransformBuffer.Enqueue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.GTransformBuffer.SetMaxSize(System.Int32)
+  commentId: M:Gestures.GTransformBuffer.SetMaxSize(System.Int32)
+  id: SetMaxSize(System.Int32)
+  parent: Gestures.GTransformBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetMaxSize(Int32)
+  nameWithType: GTransformBuffer.SetMaxSize(Int32)
+  fullName: Gestures.GTransformBuffer.SetMaxSize(System.Int32)
+  type: Method
+  source:
+    id: SetMaxSize
+    path: ''
+    startLine: 1398
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public void SetMaxSize(int maxSize)
+    parameters:
+    - id: maxSize
+      type: System.Int32
+    content.vb: Public Sub SetMaxSize(maxSize As Integer)
+  overload: Gestures.GTransformBuffer.SetMaxSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.GTransformBuffer.SetCircular(System.Boolean)
+  commentId: M:Gestures.GTransformBuffer.SetCircular(System.Boolean)
+  id: SetCircular(System.Boolean)
+  parent: Gestures.GTransformBuffer
+  langs:
+  - csharp
+  - vb
+  name: SetCircular(Boolean)
+  nameWithType: GTransformBuffer.SetCircular(Boolean)
+  fullName: Gestures.GTransformBuffer.SetCircular(System.Boolean)
+  type: Method
+  source:
+    id: SetCircular
+    path: ''
+    startLine: 1402
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public void SetCircular(bool circular)
+    parameters:
+    - id: circular
+      type: System.Boolean
+    content.vb: Public Sub SetCircular(circular As Boolean)
+  overload: Gestures.GTransformBuffer.SetCircular*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.GTransformBuffer.Size
+  commentId: M:Gestures.GTransformBuffer.Size
+  id: Size
+  parent: Gestures.GTransformBuffer
+  langs:
+  - csharp
+  - vb
+  name: Size()
+  nameWithType: GTransformBuffer.Size()
+  fullName: Gestures.GTransformBuffer.Size()
+  type: Method
+  source:
+    id: Size
+    path: ''
+    startLine: 1406
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public int Size()
+    return:
+      type: System.Int32
+    content.vb: Public Function Size As Integer
+  overload: Gestures.GTransformBuffer.Size*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.GTransformBuffer.Dequeue
+  commentId: M:Gestures.GTransformBuffer.Dequeue
+  id: Dequeue
+  parent: Gestures.GTransformBuffer
+  langs:
+  - csharp
+  - vb
+  name: Dequeue()
+  nameWithType: GTransformBuffer.Dequeue()
+  fullName: Gestures.GTransformBuffer.Dequeue()
+  type: Method
+  source:
+    id: Dequeue
+    path: ''
+    startLine: 1410
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public void Dequeue()
+    content.vb: Public Sub Dequeue
+  overload: Gestures.GTransformBuffer.Dequeue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.GTransformBuffer.Clear
+  commentId: M:Gestures.GTransformBuffer.Clear
+  id: Clear
+  parent: Gestures.GTransformBuffer
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: GTransformBuffer.Clear()
+  fullName: Gestures.GTransformBuffer.Clear()
+  type: Method
+  source:
+    id: Clear
+    path: ''
+    startLine: 1414
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear
+  overload: Gestures.GTransformBuffer.Clear*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.GTransformBuffer.GetEnumerator
+  commentId: M:Gestures.GTransformBuffer.GetEnumerator
+  id: GetEnumerator
+  parent: Gestures.GTransformBuffer
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: GTransformBuffer.GetEnumerator()
+  fullName: Gestures.GTransformBuffer.GetEnumerator()
+  type: Method
+  source:
+    id: GetEnumerator
+    path: ''
+    startLine: 1418
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public IEnumerator<GTransform> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{Gestures.GTransform}
+    content.vb: Public Function GetEnumerator As IEnumerator(Of GTransform)
+  overload: Gestures.GTransformBuffer.GetEnumerator*
+  implements:
+  - System.Collections.Generic.IEnumerable{Gestures.GTransform}.GetEnumerator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.GTransformBuffer.System#Collections#IEnumerable#GetEnumerator
+  commentId: M:Gestures.GTransformBuffer.System#Collections#IEnumerable#GetEnumerator
+  id: System#Collections#IEnumerable#GetEnumerator
+  isEii: true
+  parent: Gestures.GTransformBuffer
+  langs:
+  - csharp
+  - vb
+  name: IEnumerable.GetEnumerator()
+  nameWithType: GTransformBuffer.IEnumerable.GetEnumerator()
+  fullName: Gestures.GTransformBuffer.System.Collections.IEnumerable.GetEnumerator()
+  type: Method
+  source:
+    id: System.Collections.IEnumerable.GetEnumerator
+    path: ''
+    startLine: 1424
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: IEnumerator IEnumerable.GetEnumerator()
+    return:
+      type: System.Collections.IEnumerator
+    content.vb: Function System.Collections.IEnumerable.GetEnumerator As IEnumerator Implements IEnumerable.GetEnumerator
+  overload: Gestures.GTransformBuffer.System#Collections#IEnumerable#GetEnumerator*
+  implements:
+  - System.Collections.IEnumerable.GetEnumerator
+  nameWithType.vb: GTransformBuffer.System.Collections.IEnumerable.GetEnumerator()
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+- uid: Gestures.GTransformBuffer.ToArray
+  commentId: M:Gestures.GTransformBuffer.ToArray
+  id: ToArray
+  parent: Gestures.GTransformBuffer
+  langs:
+  - csharp
+  - vb
+  name: ToArray()
+  nameWithType: GTransformBuffer.ToArray()
+  fullName: Gestures.GTransformBuffer.ToArray()
+  type: Method
+  source:
+    id: ToArray
+    path: ''
+    startLine: 1428
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public Vector3[] ToArray()
+    return:
+      type: Vector3[]
+    content.vb: Public Function ToArray As Vector3()
+  overload: Gestures.GTransformBuffer.ToArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Gestures
+  commentId: N:Gestures
+  name: Gestures
+  nameWithType: Gestures
+  fullName: Gestures
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Collections.Generic.IEnumerable{Gestures.GTransform}
+  commentId: T:System.Collections.Generic.IEnumerable{Gestures.GTransform}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<GTransform>
+  nameWithType: IEnumerable<GTransform>
+  fullName: System.Collections.Generic.IEnumerable<Gestures.GTransform>
+  nameWithType.vb: IEnumerable(Of GTransform)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Gestures.GTransform)
+  name.vb: IEnumerable(Of GTransform)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Gestures.GTransform
+    name: GTransform
+    nameWithType: GTransform
+    fullName: Gestures.GTransform
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Gestures.GTransform
+    name: GTransform
+    nameWithType: GTransform
+    fullName: Gestures.GTransform
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: Gestures.GTransformBuffer.#ctor*
+  commentId: Overload:Gestures.GTransformBuffer.#ctor
+  name: GTransformBuffer
+  nameWithType: GTransformBuffer.GTransformBuffer
+  fullName: Gestures.GTransformBuffer.GTransformBuffer
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Gestures.GTransformBuffer.Enqueue*
+  commentId: Overload:Gestures.GTransformBuffer.Enqueue
+  name: Enqueue
+  nameWithType: GTransformBuffer.Enqueue
+  fullName: Gestures.GTransformBuffer.Enqueue
+- uid: Gestures.GTransform
+  commentId: T:Gestures.GTransform
+  parent: Gestures
+  name: GTransform
+  nameWithType: GTransform
+  fullName: Gestures.GTransform
+- uid: Gestures.GTransformBuffer.SetMaxSize*
+  commentId: Overload:Gestures.GTransformBuffer.SetMaxSize
+  name: SetMaxSize
+  nameWithType: GTransformBuffer.SetMaxSize
+  fullName: Gestures.GTransformBuffer.SetMaxSize
+- uid: Gestures.GTransformBuffer.SetCircular*
+  commentId: Overload:Gestures.GTransformBuffer.SetCircular
+  name: SetCircular
+  nameWithType: GTransformBuffer.SetCircular
+  fullName: Gestures.GTransformBuffer.SetCircular
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Gestures.GTransformBuffer.Size*
+  commentId: Overload:Gestures.GTransformBuffer.Size
+  name: Size
+  nameWithType: GTransformBuffer.Size
+  fullName: Gestures.GTransformBuffer.Size
+- uid: Gestures.GTransformBuffer.Dequeue*
+  commentId: Overload:Gestures.GTransformBuffer.Dequeue
+  name: Dequeue
+  nameWithType: GTransformBuffer.Dequeue
+  fullName: Gestures.GTransformBuffer.Dequeue
+- uid: Gestures.GTransformBuffer.Clear*
+  commentId: Overload:Gestures.GTransformBuffer.Clear
+  name: Clear
+  nameWithType: GTransformBuffer.Clear
+  fullName: Gestures.GTransformBuffer.Clear
+- uid: Gestures.GTransformBuffer.GetEnumerator*
+  commentId: Overload:Gestures.GTransformBuffer.GetEnumerator
+  name: GetEnumerator
+  nameWithType: GTransformBuffer.GetEnumerator
+  fullName: Gestures.GTransformBuffer.GetEnumerator
+- uid: System.Collections.Generic.IEnumerable{Gestures.GTransform}.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable{Gestures.GTransform}.GetEnumerator
+  parent: System.Collections.Generic.IEnumerable{Gestures.GTransform}
+  definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<GTransform>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<Gestures.GTransform>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of GTransform).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Gestures.GTransform).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable<GTransform>.GetEnumerator
+    fullName: System.Collections.Generic.IEnumerable<Gestures.GTransform>.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable(Of GTransform).GetEnumerator
+    fullName: System.Collections.Generic.IEnumerable(Of Gestures.GTransform).GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerator{Gestures.GTransform}
+  commentId: T:System.Collections.Generic.IEnumerator{Gestures.GTransform}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  name: IEnumerator<GTransform>
+  nameWithType: IEnumerator<GTransform>
+  fullName: System.Collections.Generic.IEnumerator<Gestures.GTransform>
+  nameWithType.vb: IEnumerator(Of GTransform)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of Gestures.GTransform)
+  name.vb: IEnumerator(Of GTransform)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Gestures.GTransform
+    name: GTransform
+    nameWithType: GTransform
+    fullName: Gestures.GTransform
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Gestures.GTransform
+    name: GTransform
+    nameWithType: GTransform
+    fullName: Gestures.GTransform
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable`1.GetEnumerator
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IEnumerable<T>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of T).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable<T>.GetEnumerator
+    fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable(Of T).GetEnumerator
+    fullName: System.Collections.Generic.IEnumerable(Of T).GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.GTransformBuffer.System#Collections#IEnumerable#GetEnumerator*
+  commentId: Overload:Gestures.GTransformBuffer.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator
+  nameWithType: GTransformBuffer.IEnumerable.GetEnumerator
+  fullName: Gestures.GTransformBuffer.System.Collections.IEnumerable.GetEnumerator
+  nameWithType.vb: GTransformBuffer.System.Collections.IEnumerable.GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+- uid: System.Collections.IEnumerable.GetEnumerator
+  commentId: M:System.Collections.IEnumerable.GetEnumerator
+  parent: System.Collections.IEnumerable
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: IEnumerable.GetEnumerator()
+  fullName: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Collections.IEnumerable.GetEnumerator
+    name: GetEnumerator
+    nameWithType: IEnumerable.GetEnumerator
+    fullName: System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerator
+  commentId: T:System.Collections.IEnumerator
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: System.Collections.IEnumerator
+- uid: Gestures.GTransformBuffer.ToArray*
+  commentId: Overload:Gestures.GTransformBuffer.ToArray
+  name: ToArray
+  nameWithType: GTransformBuffer.ToArray
+  fullName: Gestures.GTransformBuffer.ToArray
+- uid: Vector3[]
+  isExternal: true
+  name: Vector3[]
+  nameWithType: Vector3[]
+  fullName: Vector3[]
+  nameWithType.vb: Vector3()
+  fullName.vb: Vector3()
+  name.vb: Vector3()
+  spec.csharp:
+  - uid: Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Vector3
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Vector3
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

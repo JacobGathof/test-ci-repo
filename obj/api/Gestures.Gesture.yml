@@ -1,0 +1,1228 @@
+### YamlMime:ManagedReference
+items:
+- uid: Gestures.Gesture
+  commentId: T:Gestures.Gesture
+  id: Gesture
+  parent: Gestures
+  children:
+  - Gestures.Gesture.#ctor
+  - Gestures.Gesture.#ctor(System.Collections.Generic.List{Gestures.Check},Gestures.Normalizer,UnityEvent{Gestures.GestureMetaData})
+  - Gestures.Gesture.AddAlwaysCheck(Gestures.Check)
+  - Gestures.Gesture.AddAlwaysChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  - Gestures.Gesture.AddEvent(UnityAction{Gestures.GestureMetaData})
+  - Gestures.Gesture.AddOnceCheck(Gestures.Check)
+  - Gestures.Gesture.AddOnceChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  - Gestures.Gesture.AddSequentialCheck(Gestures.Check)
+  - Gestures.Gesture.AddSequentialChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  - Gestures.Gesture.alwaysChecks
+  - Gestures.Gesture.checks
+  - Gestures.Gesture.ClearEvents
+  - Gestures.Gesture.completeEvent
+  - Gestures.Gesture.FireEvent(Gestures.GestureMetaData)
+  - Gestures.Gesture.gestureCompleteConfidence
+  - Gestures.Gesture.GestureCompleted(System.Collections.Generic.List{Gestures.GTransform})
+  - Gestures.Gesture.gestureCompletionPrecision
+  - Gestures.Gesture.isEnabled
+  - Gestures.Gesture.normalizer
+  - Gestures.Gesture.sequentialChecks
+  - Gestures.Gesture.SetNormalizer(Gestures.Normalizer)
+  - Gestures.Gesture.VisualizeGesture(Rect)
+  langs:
+  - csharp
+  - vb
+  name: Gesture
+  nameWithType: Gesture
+  fullName: Gestures.Gesture
+  type: Class
+  source:
+    id: Gesture
+    path: ''
+    startLine: 753
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public class Gesture
+    content.vb: Public Class Gesture
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Gestures.CircleGesture
+  - Gestures.HeartGesture
+  - Gestures.SquareGesture
+  - Gestures.TriangleGesture
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Gestures.Gesture.checks
+  commentId: F:Gestures.Gesture.checks
+  id: checks
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: checks
+  nameWithType: Gesture.checks
+  fullName: Gestures.Gesture.checks
+  type: Field
+  source:
+    id: checks
+    path: ''
+    startLine: 754
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public List<Check> checks
+    return:
+      type: System.Collections.Generic.List{Gestures.Check}
+    content.vb: Public checks As List(Of Check)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.Gesture.sequentialChecks
+  commentId: F:Gestures.Gesture.sequentialChecks
+  id: sequentialChecks
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: sequentialChecks
+  nameWithType: Gesture.sequentialChecks
+  fullName: Gestures.Gesture.sequentialChecks
+  type: Field
+  source:
+    id: sequentialChecks
+    path: ''
+    startLine: 755
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public List<Check> sequentialChecks
+    return:
+      type: System.Collections.Generic.List{Gestures.Check}
+    content.vb: Public sequentialChecks As List(Of Check)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.Gesture.alwaysChecks
+  commentId: F:Gestures.Gesture.alwaysChecks
+  id: alwaysChecks
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: alwaysChecks
+  nameWithType: Gesture.alwaysChecks
+  fullName: Gestures.Gesture.alwaysChecks
+  type: Field
+  source:
+    id: alwaysChecks
+    path: ''
+    startLine: 756
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public List<Check> alwaysChecks
+    return:
+      type: System.Collections.Generic.List{Gestures.Check}
+    content.vb: Public alwaysChecks As List(Of Check)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.Gesture.isEnabled
+  commentId: P:Gestures.Gesture.isEnabled
+  id: isEnabled
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: isEnabled
+  nameWithType: Gesture.isEnabled
+  fullName: Gestures.Gesture.isEnabled
+  type: Property
+  source:
+    id: isEnabled
+    path: ''
+    startLine: 758
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public bool isEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property isEnabled As Boolean
+  overload: Gestures.Gesture.isEnabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Gestures.Gesture.normalizer
+  commentId: F:Gestures.Gesture.normalizer
+  id: normalizer
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: normalizer
+  nameWithType: Gesture.normalizer
+  fullName: Gestures.Gesture.normalizer
+  type: Field
+  source:
+    id: normalizer
+    path: ''
+    startLine: 759
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public Normalizer normalizer
+    return:
+      type: Gestures.Normalizer
+    content.vb: Public normalizer As Normalizer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.Gesture.completeEvent
+  commentId: F:Gestures.Gesture.completeEvent
+  id: completeEvent
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: completeEvent
+  nameWithType: Gesture.completeEvent
+  fullName: Gestures.Gesture.completeEvent
+  type: Field
+  source:
+    id: completeEvent
+    path: ''
+    startLine: 760
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public UnityEvent<GestureMetaData> completeEvent
+    return:
+      type: UnityEvent{Gestures.GestureMetaData}
+    content.vb: Public completeEvent As UnityEvent(Of GestureMetaData)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.Gesture.gestureCompleteConfidence
+  commentId: P:Gestures.Gesture.gestureCompleteConfidence
+  id: gestureCompleteConfidence
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: gestureCompleteConfidence
+  nameWithType: Gesture.gestureCompleteConfidence
+  fullName: Gestures.Gesture.gestureCompleteConfidence
+  type: Property
+  source:
+    id: gestureCompleteConfidence
+    path: ''
+    startLine: 762
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public float gestureCompleteConfidence { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property gestureCompleteConfidence As Single
+  overload: Gestures.Gesture.gestureCompleteConfidence*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Gestures.Gesture.gestureCompletionPrecision
+  commentId: F:Gestures.Gesture.gestureCompletionPrecision
+  id: gestureCompletionPrecision
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: gestureCompletionPrecision
+  nameWithType: Gesture.gestureCompletionPrecision
+  fullName: Gestures.Gesture.gestureCompletionPrecision
+  type: Field
+  source:
+    id: gestureCompletionPrecision
+    path: ''
+    startLine: 763
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public float gestureCompletionPrecision
+    return:
+      type: System.Single
+    content.vb: Public gestureCompletionPrecision As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.Gesture.#ctor
+  commentId: M:Gestures.Gesture.#ctor
+  id: '#ctor'
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: Gesture()
+  nameWithType: Gesture.Gesture()
+  fullName: Gestures.Gesture.Gesture()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 765
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public Gesture()
+    content.vb: Public Sub New
+  overload: Gestures.Gesture.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.Gesture.#ctor(System.Collections.Generic.List{Gestures.Check},Gestures.Normalizer,UnityEvent{Gestures.GestureMetaData})
+  commentId: M:Gestures.Gesture.#ctor(System.Collections.Generic.List{Gestures.Check},Gestures.Normalizer,UnityEvent{Gestures.GestureMetaData})
+  id: '#ctor(System.Collections.Generic.List{Gestures.Check},Gestures.Normalizer,UnityEvent{Gestures.GestureMetaData})'
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: Gesture(List<Check>, Normalizer, UnityEvent<GestureMetaData>)
+  nameWithType: Gesture.Gesture(List<Check>, Normalizer, UnityEvent<GestureMetaData>)
+  fullName: Gestures.Gesture.Gesture(System.Collections.Generic.List<Gestures.Check>, Gestures.Normalizer, UnityEvent<Gestures.GestureMetaData>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 777
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public Gesture(List<Check> st, Normalizer norm, UnityEvent<GestureMetaData> eve)
+    parameters:
+    - id: st
+      type: System.Collections.Generic.List{Gestures.Check}
+    - id: norm
+      type: Gestures.Normalizer
+    - id: eve
+      type: UnityEvent{Gestures.GestureMetaData}
+    content.vb: Public Sub New(st As List(Of Check), norm As Normalizer, eve As UnityEvent(Of GestureMetaData))
+  overload: Gestures.Gesture.#ctor*
+  nameWithType.vb: Gesture.Gesture(List(Of Check), Normalizer, UnityEvent(Of GestureMetaData))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Gestures.Gesture.Gesture(System.Collections.Generic.List(Of Gestures.Check), Gestures.Normalizer, UnityEvent(Of Gestures.GestureMetaData))
+  name.vb: Gesture(List(Of Check), Normalizer, UnityEvent(Of GestureMetaData))
+- uid: Gestures.Gesture.GestureCompleted(System.Collections.Generic.List{Gestures.GTransform})
+  commentId: M:Gestures.Gesture.GestureCompleted(System.Collections.Generic.List{Gestures.GTransform})
+  id: GestureCompleted(System.Collections.Generic.List{Gestures.GTransform})
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: GestureCompleted(List<GTransform>)
+  nameWithType: Gesture.GestureCompleted(List<GTransform>)
+  fullName: Gestures.Gesture.GestureCompleted(System.Collections.Generic.List<Gestures.GTransform>)
+  type: Method
+  source:
+    id: GestureCompleted
+    path: ''
+    startLine: 790
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public bool GestureCompleted(List<GTransform> transforms)
+    parameters:
+    - id: transforms
+      type: System.Collections.Generic.List{Gestures.GTransform}
+    return:
+      type: System.Boolean
+    content.vb: Public Function GestureCompleted(transforms As List(Of GTransform)) As Boolean
+  overload: Gestures.Gesture.GestureCompleted*
+  nameWithType.vb: Gesture.GestureCompleted(List(Of GTransform))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Gestures.Gesture.GestureCompleted(System.Collections.Generic.List(Of Gestures.GTransform))
+  name.vb: GestureCompleted(List(Of GTransform))
+- uid: Gestures.Gesture.FireEvent(Gestures.GestureMetaData)
+  commentId: M:Gestures.Gesture.FireEvent(Gestures.GestureMetaData)
+  id: FireEvent(Gestures.GestureMetaData)
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: FireEvent(GestureMetaData)
+  nameWithType: Gesture.FireEvent(GestureMetaData)
+  fullName: Gestures.Gesture.FireEvent(Gestures.GestureMetaData)
+  type: Method
+  source:
+    id: FireEvent
+    path: ''
+    startLine: 870
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public void FireEvent(GestureMetaData metaData)
+    parameters:
+    - id: metaData
+      type: Gestures.GestureMetaData
+    content.vb: Public Sub FireEvent(metaData As GestureMetaData)
+  overload: Gestures.Gesture.FireEvent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.Gesture.AddEvent(UnityAction{Gestures.GestureMetaData})
+  commentId: M:Gestures.Gesture.AddEvent(UnityAction{Gestures.GestureMetaData})
+  id: AddEvent(UnityAction{Gestures.GestureMetaData})
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: AddEvent(UnityAction<GestureMetaData>)
+  nameWithType: Gesture.AddEvent(UnityAction<GestureMetaData>)
+  fullName: Gestures.Gesture.AddEvent(UnityAction<Gestures.GestureMetaData>)
+  type: Method
+  source:
+    id: AddEvent
+    path: ''
+    startLine: 874
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public Gesture AddEvent(UnityAction<GestureMetaData> eventAction)
+    parameters:
+    - id: eventAction
+      type: UnityAction{Gestures.GestureMetaData}
+    return:
+      type: Gestures.Gesture
+    content.vb: Public Function AddEvent(eventAction As UnityAction(Of GestureMetaData)) As Gesture
+  overload: Gestures.Gesture.AddEvent*
+  nameWithType.vb: Gesture.AddEvent(UnityAction(Of GestureMetaData))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Gestures.Gesture.AddEvent(UnityAction(Of Gestures.GestureMetaData))
+  name.vb: AddEvent(UnityAction(Of GestureMetaData))
+- uid: Gestures.Gesture.ClearEvents
+  commentId: M:Gestures.Gesture.ClearEvents
+  id: ClearEvents
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: ClearEvents()
+  nameWithType: Gesture.ClearEvents()
+  fullName: Gestures.Gesture.ClearEvents()
+  type: Method
+  source:
+    id: ClearEvents
+    path: ''
+    startLine: 879
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public void ClearEvents()
+    content.vb: Public Sub ClearEvents
+  overload: Gestures.Gesture.ClearEvents*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.Gesture.SetNormalizer(Gestures.Normalizer)
+  commentId: M:Gestures.Gesture.SetNormalizer(Gestures.Normalizer)
+  id: SetNormalizer(Gestures.Normalizer)
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: SetNormalizer(Normalizer)
+  nameWithType: Gesture.SetNormalizer(Normalizer)
+  fullName: Gestures.Gesture.SetNormalizer(Gestures.Normalizer)
+  type: Method
+  source:
+    id: SetNormalizer
+    path: ''
+    startLine: 883
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public Gesture SetNormalizer(Normalizer nm)
+    parameters:
+    - id: nm
+      type: Gestures.Normalizer
+    return:
+      type: Gestures.Gesture
+    content.vb: Public Function SetNormalizer(nm As Normalizer) As Gesture
+  overload: Gestures.Gesture.SetNormalizer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.Gesture.AddOnceCheck(Gestures.Check)
+  commentId: M:Gestures.Gesture.AddOnceCheck(Gestures.Check)
+  id: AddOnceCheck(Gestures.Check)
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: AddOnceCheck(Check)
+  nameWithType: Gesture.AddOnceCheck(Check)
+  fullName: Gestures.Gesture.AddOnceCheck(Gestures.Check)
+  type: Method
+  source:
+    id: AddOnceCheck
+    path: ''
+    startLine: 888
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public Gesture AddOnceCheck(Check newCheck)
+    parameters:
+    - id: newCheck
+      type: Gestures.Check
+    return:
+      type: Gestures.Gesture
+    content.vb: Public Function AddOnceCheck(newCheck As Check) As Gesture
+  overload: Gestures.Gesture.AddOnceCheck*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.Gesture.AddOnceChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  commentId: M:Gestures.Gesture.AddOnceChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  id: AddOnceChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: AddOnceChecks(IEnumerable<Check>)
+  nameWithType: Gesture.AddOnceChecks(IEnumerable<Check>)
+  fullName: Gestures.Gesture.AddOnceChecks(System.Collections.Generic.IEnumerable<Gestures.Check>)
+  type: Method
+  source:
+    id: AddOnceChecks
+    path: ''
+    startLine: 893
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public Gesture AddOnceChecks(IEnumerable<Check> newChecks)
+    parameters:
+    - id: newChecks
+      type: System.Collections.Generic.IEnumerable{Gestures.Check}
+    return:
+      type: Gestures.Gesture
+    content.vb: Public Function AddOnceChecks(newChecks As IEnumerable(Of Check)) As Gesture
+  overload: Gestures.Gesture.AddOnceChecks*
+  nameWithType.vb: Gesture.AddOnceChecks(IEnumerable(Of Check))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Gestures.Gesture.AddOnceChecks(System.Collections.Generic.IEnumerable(Of Gestures.Check))
+  name.vb: AddOnceChecks(IEnumerable(Of Check))
+- uid: Gestures.Gesture.AddAlwaysCheck(Gestures.Check)
+  commentId: M:Gestures.Gesture.AddAlwaysCheck(Gestures.Check)
+  id: AddAlwaysCheck(Gestures.Check)
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: AddAlwaysCheck(Check)
+  nameWithType: Gesture.AddAlwaysCheck(Check)
+  fullName: Gestures.Gesture.AddAlwaysCheck(Gestures.Check)
+  type: Method
+  source:
+    id: AddAlwaysCheck
+    path: ''
+    startLine: 898
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public Gesture AddAlwaysCheck(Check newCheck)
+    parameters:
+    - id: newCheck
+      type: Gestures.Check
+    return:
+      type: Gestures.Gesture
+    content.vb: Public Function AddAlwaysCheck(newCheck As Check) As Gesture
+  overload: Gestures.Gesture.AddAlwaysCheck*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.Gesture.AddAlwaysChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  commentId: M:Gestures.Gesture.AddAlwaysChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  id: AddAlwaysChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: AddAlwaysChecks(IEnumerable<Check>)
+  nameWithType: Gesture.AddAlwaysChecks(IEnumerable<Check>)
+  fullName: Gestures.Gesture.AddAlwaysChecks(System.Collections.Generic.IEnumerable<Gestures.Check>)
+  type: Method
+  source:
+    id: AddAlwaysChecks
+    path: ''
+    startLine: 903
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public Gesture AddAlwaysChecks(IEnumerable<Check> newChecks)
+    parameters:
+    - id: newChecks
+      type: System.Collections.Generic.IEnumerable{Gestures.Check}
+    return:
+      type: Gestures.Gesture
+    content.vb: Public Function AddAlwaysChecks(newChecks As IEnumerable(Of Check)) As Gesture
+  overload: Gestures.Gesture.AddAlwaysChecks*
+  nameWithType.vb: Gesture.AddAlwaysChecks(IEnumerable(Of Check))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Gestures.Gesture.AddAlwaysChecks(System.Collections.Generic.IEnumerable(Of Gestures.Check))
+  name.vb: AddAlwaysChecks(IEnumerable(Of Check))
+- uid: Gestures.Gesture.AddSequentialCheck(Gestures.Check)
+  commentId: M:Gestures.Gesture.AddSequentialCheck(Gestures.Check)
+  id: AddSequentialCheck(Gestures.Check)
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: AddSequentialCheck(Check)
+  nameWithType: Gesture.AddSequentialCheck(Check)
+  fullName: Gestures.Gesture.AddSequentialCheck(Gestures.Check)
+  type: Method
+  source:
+    id: AddSequentialCheck
+    path: ''
+    startLine: 908
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public Gesture AddSequentialCheck(Check newCheck)
+    parameters:
+    - id: newCheck
+      type: Gestures.Check
+    return:
+      type: Gestures.Gesture
+    content.vb: Public Function AddSequentialCheck(newCheck As Check) As Gesture
+  overload: Gestures.Gesture.AddSequentialCheck*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.Gesture.AddSequentialChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  commentId: M:Gestures.Gesture.AddSequentialChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  id: AddSequentialChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: AddSequentialChecks(IEnumerable<Check>)
+  nameWithType: Gesture.AddSequentialChecks(IEnumerable<Check>)
+  fullName: Gestures.Gesture.AddSequentialChecks(System.Collections.Generic.IEnumerable<Gestures.Check>)
+  type: Method
+  source:
+    id: AddSequentialChecks
+    path: ''
+    startLine: 913
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public Gesture AddSequentialChecks(IEnumerable<Check> newChecks)
+    parameters:
+    - id: newChecks
+      type: System.Collections.Generic.IEnumerable{Gestures.Check}
+    return:
+      type: Gestures.Gesture
+    content.vb: Public Function AddSequentialChecks(newChecks As IEnumerable(Of Check)) As Gesture
+  overload: Gestures.Gesture.AddSequentialChecks*
+  nameWithType.vb: Gesture.AddSequentialChecks(IEnumerable(Of Check))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Gestures.Gesture.AddSequentialChecks(System.Collections.Generic.IEnumerable(Of Gestures.Check))
+  name.vb: AddSequentialChecks(IEnumerable(Of Check))
+- uid: Gestures.Gesture.VisualizeGesture(Rect)
+  commentId: M:Gestures.Gesture.VisualizeGesture(Rect)
+  id: VisualizeGesture(Rect)
+  parent: Gestures.Gesture
+  langs:
+  - csharp
+  - vb
+  name: VisualizeGesture(Rect)
+  nameWithType: Gesture.VisualizeGesture(Rect)
+  fullName: Gestures.Gesture.VisualizeGesture(Rect)
+  type: Method
+  source:
+    id: VisualizeGesture
+    path: ''
+    startLine: 918
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public void VisualizeGesture(Rect grid)
+    parameters:
+    - id: grid
+      type: Rect
+    content.vb: Public Sub VisualizeGesture(grid As Rect)
+  overload: Gestures.Gesture.VisualizeGesture*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Gestures
+  commentId: N:Gestures
+  name: Gestures
+  nameWithType: Gestures
+  fullName: Gestures
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{Gestures.Check}
+  commentId: T:System.Collections.Generic.List{Gestures.Check}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Check>
+  nameWithType: List<Check>
+  fullName: System.Collections.Generic.List<Gestures.Check>
+  nameWithType.vb: List(Of Check)
+  fullName.vb: System.Collections.Generic.List(Of Gestures.Check)
+  name.vb: List(Of Check)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Gestures.Check
+    name: Check
+    nameWithType: Check
+    fullName: Gestures.Check
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Gestures.Check
+    name: Check
+    nameWithType: Check
+    fullName: Gestures.Check
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Gestures.Gesture.isEnabled*
+  commentId: Overload:Gestures.Gesture.isEnabled
+  name: isEnabled
+  nameWithType: Gesture.isEnabled
+  fullName: Gestures.Gesture.isEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Gestures.Normalizer
+  commentId: T:Gestures.Normalizer
+  parent: Gestures
+  name: Normalizer
+  nameWithType: Normalizer
+  fullName: Gestures.Normalizer
+- uid: UnityEvent{Gestures.GestureMetaData}
+  commentId: '!:UnityEvent{Gestures.GestureMetaData}'
+  definition: UnityEvent`1
+  name: UnityEvent<GestureMetaData>
+  nameWithType: UnityEvent<GestureMetaData>
+  fullName: UnityEvent<Gestures.GestureMetaData>
+  nameWithType.vb: UnityEvent(Of GestureMetaData)
+  fullName.vb: UnityEvent(Of Gestures.GestureMetaData)
+  name.vb: UnityEvent(Of GestureMetaData)
+  spec.csharp:
+  - uid: UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Gestures.GestureMetaData
+    name: GestureMetaData
+    nameWithType: GestureMetaData
+    fullName: Gestures.GestureMetaData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Gestures.GestureMetaData
+    name: GestureMetaData
+    nameWithType: GestureMetaData
+    fullName: Gestures.GestureMetaData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEvent`1
+  isExternal: true
+  name: UnityEvent<>
+  nameWithType: UnityEvent<>
+  fullName: UnityEvent<>
+  nameWithType.vb: UnityEvent(Of )
+  fullName.vb: UnityEvent(Of )
+  name.vb: UnityEvent(Of )
+  spec.csharp:
+  - uid: UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.Gesture.gestureCompleteConfidence*
+  commentId: Overload:Gestures.Gesture.gestureCompleteConfidence
+  name: gestureCompleteConfidence
+  nameWithType: Gesture.gestureCompleteConfidence
+  fullName: Gestures.Gesture.gestureCompleteConfidence
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Gestures.Gesture.#ctor*
+  commentId: Overload:Gestures.Gesture.#ctor
+  name: Gesture
+  nameWithType: Gesture.Gesture
+  fullName: Gestures.Gesture.Gesture
+- uid: Gestures.Gesture.GestureCompleted*
+  commentId: Overload:Gestures.Gesture.GestureCompleted
+  name: GestureCompleted
+  nameWithType: Gesture.GestureCompleted
+  fullName: Gestures.Gesture.GestureCompleted
+- uid: System.Collections.Generic.List{Gestures.GTransform}
+  commentId: T:System.Collections.Generic.List{Gestures.GTransform}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<GTransform>
+  nameWithType: List<GTransform>
+  fullName: System.Collections.Generic.List<Gestures.GTransform>
+  nameWithType.vb: List(Of GTransform)
+  fullName.vb: System.Collections.Generic.List(Of Gestures.GTransform)
+  name.vb: List(Of GTransform)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Gestures.GTransform
+    name: GTransform
+    nameWithType: GTransform
+    fullName: Gestures.GTransform
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Gestures.GTransform
+    name: GTransform
+    nameWithType: GTransform
+    fullName: Gestures.GTransform
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.Gesture.FireEvent*
+  commentId: Overload:Gestures.Gesture.FireEvent
+  name: FireEvent
+  nameWithType: Gesture.FireEvent
+  fullName: Gestures.Gesture.FireEvent
+- uid: Gestures.GestureMetaData
+  commentId: T:Gestures.GestureMetaData
+  parent: Gestures
+  name: GestureMetaData
+  nameWithType: GestureMetaData
+  fullName: Gestures.GestureMetaData
+- uid: Gestures.Gesture.AddEvent*
+  commentId: Overload:Gestures.Gesture.AddEvent
+  name: AddEvent
+  nameWithType: Gesture.AddEvent
+  fullName: Gestures.Gesture.AddEvent
+- uid: UnityAction{Gestures.GestureMetaData}
+  commentId: '!:UnityAction{Gestures.GestureMetaData}'
+  definition: UnityAction`1
+  name: UnityAction<GestureMetaData>
+  nameWithType: UnityAction<GestureMetaData>
+  fullName: UnityAction<Gestures.GestureMetaData>
+  nameWithType.vb: UnityAction(Of GestureMetaData)
+  fullName.vb: UnityAction(Of Gestures.GestureMetaData)
+  name.vb: UnityAction(Of GestureMetaData)
+  spec.csharp:
+  - uid: UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Gestures.GestureMetaData
+    name: GestureMetaData
+    nameWithType: GestureMetaData
+    fullName: Gestures.GestureMetaData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Gestures.GestureMetaData
+    name: GestureMetaData
+    nameWithType: GestureMetaData
+    fullName: Gestures.GestureMetaData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.Gesture
+  commentId: T:Gestures.Gesture
+  parent: Gestures
+  name: Gesture
+  nameWithType: Gesture
+  fullName: Gestures.Gesture
+- uid: UnityAction`1
+  isExternal: true
+  name: UnityAction<>
+  nameWithType: UnityAction<>
+  fullName: UnityAction<>
+  nameWithType.vb: UnityAction(Of )
+  fullName.vb: UnityAction(Of )
+  name.vb: UnityAction(Of )
+  spec.csharp:
+  - uid: UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.Gesture.ClearEvents*
+  commentId: Overload:Gestures.Gesture.ClearEvents
+  name: ClearEvents
+  nameWithType: Gesture.ClearEvents
+  fullName: Gestures.Gesture.ClearEvents
+- uid: Gestures.Gesture.SetNormalizer*
+  commentId: Overload:Gestures.Gesture.SetNormalizer
+  name: SetNormalizer
+  nameWithType: Gesture.SetNormalizer
+  fullName: Gestures.Gesture.SetNormalizer
+- uid: Gestures.Gesture.AddOnceCheck*
+  commentId: Overload:Gestures.Gesture.AddOnceCheck
+  name: AddOnceCheck
+  nameWithType: Gesture.AddOnceCheck
+  fullName: Gestures.Gesture.AddOnceCheck
+- uid: Gestures.Check
+  commentId: T:Gestures.Check
+  parent: Gestures
+  name: Check
+  nameWithType: Check
+  fullName: Gestures.Check
+- uid: Gestures.Gesture.AddOnceChecks*
+  commentId: Overload:Gestures.Gesture.AddOnceChecks
+  name: AddOnceChecks
+  nameWithType: Gesture.AddOnceChecks
+  fullName: Gestures.Gesture.AddOnceChecks
+- uid: System.Collections.Generic.IEnumerable{Gestures.Check}
+  commentId: T:System.Collections.Generic.IEnumerable{Gestures.Check}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Check>
+  nameWithType: IEnumerable<Check>
+  fullName: System.Collections.Generic.IEnumerable<Gestures.Check>
+  nameWithType.vb: IEnumerable(Of Check)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Gestures.Check)
+  name.vb: IEnumerable(Of Check)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Gestures.Check
+    name: Check
+    nameWithType: Check
+    fullName: Gestures.Check
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Gestures.Check
+    name: Check
+    nameWithType: Check
+    fullName: Gestures.Check
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.Gesture.AddAlwaysCheck*
+  commentId: Overload:Gestures.Gesture.AddAlwaysCheck
+  name: AddAlwaysCheck
+  nameWithType: Gesture.AddAlwaysCheck
+  fullName: Gestures.Gesture.AddAlwaysCheck
+- uid: Gestures.Gesture.AddAlwaysChecks*
+  commentId: Overload:Gestures.Gesture.AddAlwaysChecks
+  name: AddAlwaysChecks
+  nameWithType: Gesture.AddAlwaysChecks
+  fullName: Gestures.Gesture.AddAlwaysChecks
+- uid: Gestures.Gesture.AddSequentialCheck*
+  commentId: Overload:Gestures.Gesture.AddSequentialCheck
+  name: AddSequentialCheck
+  nameWithType: Gesture.AddSequentialCheck
+  fullName: Gestures.Gesture.AddSequentialCheck
+- uid: Gestures.Gesture.AddSequentialChecks*
+  commentId: Overload:Gestures.Gesture.AddSequentialChecks
+  name: AddSequentialChecks
+  nameWithType: Gesture.AddSequentialChecks
+  fullName: Gestures.Gesture.AddSequentialChecks
+- uid: Gestures.Gesture.VisualizeGesture*
+  commentId: Overload:Gestures.Gesture.VisualizeGesture
+  name: VisualizeGesture
+  nameWithType: Gesture.VisualizeGesture
+  fullName: Gestures.Gesture.VisualizeGesture
+- uid: Rect
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: Rect

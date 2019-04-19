@@ -1,0 +1,1153 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.NewButtonScript
+  commentId: T:UI.NewButtonScript
+  id: NewButtonScript
+  parent: UI
+  children:
+  - UI.NewButtonScript.activationLayer
+  - UI.NewButtonScript.delay
+  - UI.NewButtonScript.detectOnEnter
+  - UI.NewButtonScript.detectOnExit
+  - UI.NewButtonScript.detectOnHover
+  - UI.NewButtonScript.disabled
+  - UI.NewButtonScript.endColor
+  - UI.NewButtonScript.extras
+  - UI.NewButtonScript.extrasDisabled
+  - UI.NewButtonScript.extrasHovered
+  - UI.NewButtonScript.extrasPressed
+  - UI.NewButtonScript.gradient
+  - UI.NewButtonScript.hovered
+  - UI.NewButtonScript.hoverLayer
+  - UI.NewButtonScript.ItemFade
+  - UI.NewButtonScript.onEnter
+  - UI.NewButtonScript.onEnterUseForActivation
+  - UI.NewButtonScript.onEnterUseForHover
+  - UI.NewButtonScript.onExit
+  - UI.NewButtonScript.onExitUseForActivation
+  - UI.NewButtonScript.onExitUseForHover
+  - UI.NewButtonScript.onHover
+  - UI.NewButtonScript.onPress
+  - UI.NewButtonScript.onStayUseForActivation
+  - UI.NewButtonScript.onStayUseForHover
+  - UI.NewButtonScript.pressed
+  - UI.NewButtonScript.setActivatinglayer(LayerMask)
+  - UI.NewButtonScript.setDisabled(System.Boolean)
+  - UI.NewButtonScript.setEnabled(System.Boolean)
+  - UI.NewButtonScript.setHovered(System.Boolean)
+  - UI.NewButtonScript.setHoveringlayer(LayerMask)
+  - UI.NewButtonScript.setPressed(System.Boolean)
+  - UI.NewButtonScript.startColor
+  - UI.NewButtonScript.useGradient
+  langs:
+  - csharp
+  - vb
+  name: NewButtonScript
+  nameWithType: NewButtonScript
+  fullName: UI.NewButtonScript
+  type: Class
+  source:
+    id: NewButtonScript
+    path: ''
+    startLine: 1891
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: 'public class NewButtonScript : MonoBehaviour'
+    content.vb: >-
+      Public Class NewButtonScript
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UI.NewButtonScript.gradient
+  commentId: F:UI.NewButtonScript.gradient
+  id: gradient
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: gradient
+  nameWithType: NewButtonScript.gradient
+  fullName: UI.NewButtonScript.gradient
+  type: Field
+  source:
+    id: gradient
+    path: ''
+    startLine: 1911
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nThe gradient for color changing\n"
+  example: []
+  syntax:
+    content: public Gradient gradient
+    return:
+      type: Gradient
+    content.vb: Public gradient As Gradient
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.useGradient
+  commentId: F:UI.NewButtonScript.useGradient
+  id: useGradient
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: useGradient
+  nameWithType: NewButtonScript.useGradient
+  fullName: UI.NewButtonScript.useGradient
+  type: Field
+  source:
+    id: useGradient
+    path: ''
+    startLine: 1916
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nWeather we use the gradient or instant transition\n"
+  example: []
+  syntax:
+    content: public bool useGradient
+    return:
+      type: System.Boolean
+    content.vb: Public useGradient As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.startColor
+  commentId: F:UI.NewButtonScript.startColor
+  id: startColor
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: startColor
+  nameWithType: NewButtonScript.startColor
+  fullName: UI.NewButtonScript.startColor
+  type: Field
+  source:
+    id: startColor
+    path: ''
+    startLine: 1921
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nThe start color in instant transitions\n"
+  example: []
+  syntax:
+    content: public Color startColor
+    return:
+      type: Color
+    content.vb: Public startColor As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.endColor
+  commentId: F:UI.NewButtonScript.endColor
+  id: endColor
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: endColor
+  nameWithType: NewButtonScript.endColor
+  fullName: UI.NewButtonScript.endColor
+  type: Field
+  source:
+    id: endColor
+    path: ''
+    startLine: 1926
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nThe end color in instant transitions\n"
+  example: []
+  syntax:
+    content: public Color endColor
+    return:
+      type: Color
+    content.vb: Public endColor As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.ItemFade
+  commentId: F:UI.NewButtonScript.ItemFade
+  id: ItemFade
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: ItemFade
+  nameWithType: NewButtonScript.ItemFade
+  fullName: UI.NewButtonScript.ItemFade
+  type: Field
+  source:
+    id: ItemFade
+    path: ''
+    startLine: 1932
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nThe time it takes to get the hovered item to do a fade transition\nset to 0 for instant transitions\n"
+  example: []
+  syntax:
+    content: public float ItemFade
+    return:
+      type: System.Single
+    content.vb: Public ItemFade As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.delay
+  commentId: F:UI.NewButtonScript.delay
+  id: delay
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: delay
+  nameWithType: NewButtonScript.delay
+  fullName: UI.NewButtonScript.delay
+  type: Field
+  source:
+    id: delay
+    path: ''
+    startLine: 1938
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nThe delay after which inputs are considered legitmate to reduce input spamming\nmust be negative float in seconds\n"
+  example: []
+  syntax:
+    content: public float delay
+    return:
+      type: System.Single
+    content.vb: Public delay As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.onEnterUseForHover
+  commentId: F:UI.NewButtonScript.onEnterUseForHover
+  id: onEnterUseForHover
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: onEnterUseForHover
+  nameWithType: NewButtonScript.onEnterUseForHover
+  fullName: UI.NewButtonScript.onEnterUseForHover
+  type: Field
+  source:
+    id: onEnterUseForHover
+    path: ''
+    startLine: 1948
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nIf we use onEnter for the hovering layer\n"
+  example: []
+  syntax:
+    content: public bool onEnterUseForHover
+    return:
+      type: System.Boolean
+    content.vb: Public onEnterUseForHover As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.onEnterUseForActivation
+  commentId: F:UI.NewButtonScript.onEnterUseForActivation
+  id: onEnterUseForActivation
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: onEnterUseForActivation
+  nameWithType: NewButtonScript.onEnterUseForActivation
+  fullName: UI.NewButtonScript.onEnterUseForActivation
+  type: Field
+  source:
+    id: onEnterUseForActivation
+    path: ''
+    startLine: 1953
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nIf we use onEnter for the hovering layer\n"
+  example: []
+  syntax:
+    content: public bool onEnterUseForActivation
+    return:
+      type: System.Boolean
+    content.vb: Public onEnterUseForActivation As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.onEnter
+  commentId: F:UI.NewButtonScript.onEnter
+  id: onEnter
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: onEnter
+  nameWithType: NewButtonScript.onEnter
+  fullName: UI.NewButtonScript.onEnter
+  type: Field
+  source:
+    id: onEnter
+    path: ''
+    startLine: 1954
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public UnityEvent onEnter
+    return:
+      type: UnityEvent
+    content.vb: Public onEnter As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.onStayUseForHover
+  commentId: F:UI.NewButtonScript.onStayUseForHover
+  id: onStayUseForHover
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: onStayUseForHover
+  nameWithType: NewButtonScript.onStayUseForHover
+  fullName: UI.NewButtonScript.onStayUseForHover
+  type: Field
+  source:
+    id: onStayUseForHover
+    path: ''
+    startLine: 1960
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nIf we use onStay for the hovering layer\n"
+  example: []
+  syntax:
+    content: public bool onStayUseForHover
+    return:
+      type: System.Boolean
+    content.vb: Public onStayUseForHover As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.onStayUseForActivation
+  commentId: F:UI.NewButtonScript.onStayUseForActivation
+  id: onStayUseForActivation
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: onStayUseForActivation
+  nameWithType: NewButtonScript.onStayUseForActivation
+  fullName: UI.NewButtonScript.onStayUseForActivation
+  type: Field
+  source:
+    id: onStayUseForActivation
+    path: ''
+    startLine: 1965
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nIf we use onStay for the activating layer\n"
+  example: []
+  syntax:
+    content: public bool onStayUseForActivation
+    return:
+      type: System.Boolean
+    content.vb: Public onStayUseForActivation As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.onHover
+  commentId: F:UI.NewButtonScript.onHover
+  id: onHover
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: onHover
+  nameWithType: NewButtonScript.onHover
+  fullName: UI.NewButtonScript.onHover
+  type: Field
+  source:
+    id: onHover
+    path: ''
+    startLine: 1966
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public UnityEvent onHover
+    return:
+      type: UnityEvent
+    content.vb: Public onHover As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.onExitUseForHover
+  commentId: F:UI.NewButtonScript.onExitUseForHover
+  id: onExitUseForHover
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: onExitUseForHover
+  nameWithType: NewButtonScript.onExitUseForHover
+  fullName: UI.NewButtonScript.onExitUseForHover
+  type: Field
+  source:
+    id: onExitUseForHover
+    path: ''
+    startLine: 1972
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nIf we use onExit for the hovering layer\n"
+  example: []
+  syntax:
+    content: public bool onExitUseForHover
+    return:
+      type: System.Boolean
+    content.vb: Public onExitUseForHover As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.onExitUseForActivation
+  commentId: F:UI.NewButtonScript.onExitUseForActivation
+  id: onExitUseForActivation
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: onExitUseForActivation
+  nameWithType: NewButtonScript.onExitUseForActivation
+  fullName: UI.NewButtonScript.onExitUseForActivation
+  type: Field
+  source:
+    id: onExitUseForActivation
+    path: ''
+    startLine: 1977
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nIf we use onExit for the activating layer\n"
+  example: []
+  syntax:
+    content: public bool onExitUseForActivation
+    return:
+      type: System.Boolean
+    content.vb: Public onExitUseForActivation As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.onExit
+  commentId: F:UI.NewButtonScript.onExit
+  id: onExit
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: onExit
+  nameWithType: NewButtonScript.onExit
+  fullName: UI.NewButtonScript.onExit
+  type: Field
+  source:
+    id: onExit
+    path: ''
+    startLine: 1978
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public UnityEvent onExit
+    return:
+      type: UnityEvent
+    content.vb: Public onExit As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.onPress
+  commentId: F:UI.NewButtonScript.onPress
+  id: onPress
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: onPress
+  nameWithType: NewButtonScript.onPress
+  fullName: UI.NewButtonScript.onPress
+  type: Field
+  source:
+    id: onPress
+    path: ''
+    startLine: 1980
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public UnityEvent onPress
+    return:
+      type: UnityEvent
+    content.vb: Public onPress As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.detectOnEnter
+  commentId: F:UI.NewButtonScript.detectOnEnter
+  id: detectOnEnter
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: detectOnEnter
+  nameWithType: NewButtonScript.detectOnEnter
+  fullName: UI.NewButtonScript.detectOnEnter
+  type: Field
+  source:
+    id: detectOnEnter
+    path: ''
+    startLine: 1986
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\ndetermines if we detect onEnter events\n"
+  example: []
+  syntax:
+    content: public bool detectOnEnter
+    return:
+      type: System.Boolean
+    content.vb: Public detectOnEnter As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.detectOnHover
+  commentId: F:UI.NewButtonScript.detectOnHover
+  id: detectOnHover
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: detectOnHover
+  nameWithType: NewButtonScript.detectOnHover
+  fullName: UI.NewButtonScript.detectOnHover
+  type: Field
+  source:
+    id: detectOnHover
+    path: ''
+    startLine: 1991
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\ndetermines if we detect onHover events\n"
+  example: []
+  syntax:
+    content: public bool detectOnHover
+    return:
+      type: System.Boolean
+    content.vb: Public detectOnHover As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.detectOnExit
+  commentId: F:UI.NewButtonScript.detectOnExit
+  id: detectOnExit
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: detectOnExit
+  nameWithType: NewButtonScript.detectOnExit
+  fullName: UI.NewButtonScript.detectOnExit
+  type: Field
+  source:
+    id: detectOnExit
+    path: ''
+    startLine: 1996
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\ndetermines if we detect onExit events\n"
+  example: []
+  syntax:
+    content: public bool detectOnExit
+    return:
+      type: System.Boolean
+    content.vb: Public detectOnExit As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.hoverLayer
+  commentId: F:UI.NewButtonScript.hoverLayer
+  id: hoverLayer
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: hoverLayer
+  nameWithType: NewButtonScript.hoverLayer
+  fullName: UI.NewButtonScript.hoverLayer
+  type: Field
+  source:
+    id: hoverLayer
+    path: ''
+    startLine: 2001
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nThe layer that object are in to be considered hovering\n"
+  example: []
+  syntax:
+    content: public LayerMask hoverLayer
+    return:
+      type: LayerMask
+    content.vb: Public hoverLayer As LayerMask
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.activationLayer
+  commentId: F:UI.NewButtonScript.activationLayer
+  id: activationLayer
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: activationLayer
+  nameWithType: NewButtonScript.activationLayer
+  fullName: UI.NewButtonScript.activationLayer
+  type: Field
+  source:
+    id: activationLayer
+    path: ''
+    startLine: 2006
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nThe layer that object are in to be considered activating\n"
+  example: []
+  syntax:
+    content: public LayerMask activationLayer
+    return:
+      type: LayerMask
+    content.vb: Public activationLayer As LayerMask
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.hovered
+  commentId: F:UI.NewButtonScript.hovered
+  id: hovered
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: hovered
+  nameWithType: NewButtonScript.hovered
+  fullName: UI.NewButtonScript.hovered
+  type: Field
+  source:
+    id: hovered
+    path: ''
+    startLine: 2012
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nDetermines if the button is being hovered\n"
+  example: []
+  syntax:
+    content: public bool hovered
+    return:
+      type: System.Boolean
+    content.vb: Public hovered As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.pressed
+  commentId: F:UI.NewButtonScript.pressed
+  id: pressed
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: pressed
+  nameWithType: NewButtonScript.pressed
+  fullName: UI.NewButtonScript.pressed
+  type: Field
+  source:
+    id: pressed
+    path: ''
+    startLine: 2017
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nDetermines if the button has been pressed\n"
+  example: []
+  syntax:
+    content: public bool pressed
+    return:
+      type: System.Boolean
+    content.vb: Public pressed As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.disabled
+  commentId: F:UI.NewButtonScript.disabled
+  id: disabled
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: disabled
+  nameWithType: NewButtonScript.disabled
+  fullName: UI.NewButtonScript.disabled
+  type: Field
+  source:
+    id: disabled
+    path: ''
+    startLine: 2022
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nDetermines if the button has been disabled\n"
+  example: []
+  syntax:
+    content: public bool disabled
+    return:
+      type: System.Boolean
+    content.vb: Public disabled As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.extras
+  commentId: F:UI.NewButtonScript.extras
+  id: extras
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: extras
+  nameWithType: NewButtonScript.extras
+  fullName: UI.NewButtonScript.extras
+  type: Field
+  source:
+    id: extras
+    path: ''
+    startLine: 2027
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nThe normal item that are added to the button when it is not in any other state\n"
+  example: []
+  syntax:
+    content: public GameObject extras
+    return:
+      type: GameObject
+    content.vb: Public extras As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.extrasHovered
+  commentId: F:UI.NewButtonScript.extrasHovered
+  id: extrasHovered
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: extrasHovered
+  nameWithType: NewButtonScript.extrasHovered
+  fullName: UI.NewButtonScript.extrasHovered
+  type: Field
+  source:
+    id: extrasHovered
+    path: ''
+    startLine: 2032
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nThe normal item that are added to the button when it is hovered\n"
+  example: []
+  syntax:
+    content: public GameObject extrasHovered
+    return:
+      type: GameObject
+    content.vb: Public extrasHovered As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.extrasPressed
+  commentId: F:UI.NewButtonScript.extrasPressed
+  id: extrasPressed
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: extrasPressed
+  nameWithType: NewButtonScript.extrasPressed
+  fullName: UI.NewButtonScript.extrasPressed
+  type: Field
+  source:
+    id: extrasPressed
+    path: ''
+    startLine: 2037
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nThe normal item that are added to the button when it is pressed\n"
+  example: []
+  syntax:
+    content: public GameObject extrasPressed
+    return:
+      type: GameObject
+    content.vb: Public extrasPressed As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.extrasDisabled
+  commentId: F:UI.NewButtonScript.extrasDisabled
+  id: extrasDisabled
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: extrasDisabled
+  nameWithType: NewButtonScript.extrasDisabled
+  fullName: UI.NewButtonScript.extrasDisabled
+  type: Field
+  source:
+    id: extrasDisabled
+    path: ''
+    startLine: 2042
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nThe normal item that are added to the button when it is disabled\n"
+  example: []
+  syntax:
+    content: public GameObject extrasDisabled
+    return:
+      type: GameObject
+    content.vb: Public extrasDisabled As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.setEnabled(System.Boolean)
+  commentId: M:UI.NewButtonScript.setEnabled(System.Boolean)
+  id: setEnabled(System.Boolean)
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: setEnabled(Boolean)
+  nameWithType: NewButtonScript.setEnabled(Boolean)
+  fullName: UI.NewButtonScript.setEnabled(System.Boolean)
+  type: Method
+  source:
+    id: setEnabled
+    path: ''
+    startLine: 2269
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nEnables the object\n"
+  example: []
+  syntax:
+    content: public void setEnabled(bool value)
+    parameters:
+    - id: value
+      type: System.Boolean
+      description: boolean of enabled or not
+    content.vb: Public Sub setEnabled(value As Boolean)
+  overload: UI.NewButtonScript.setEnabled*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.setHovered(System.Boolean)
+  commentId: M:UI.NewButtonScript.setHovered(System.Boolean)
+  id: setHovered(System.Boolean)
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: setHovered(Boolean)
+  nameWithType: NewButtonScript.setHovered(Boolean)
+  fullName: UI.NewButtonScript.setHovered(System.Boolean)
+  type: Method
+  source:
+    id: setHovered
+    path: ''
+    startLine: 2351
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nSet weather the item is hovered\n"
+  example: []
+  syntax:
+    content: public void setHovered(bool state)
+    parameters:
+    - id: state
+      type: System.Boolean
+      description: weather the item is hovered
+    content.vb: Public Sub setHovered(state As Boolean)
+  overload: UI.NewButtonScript.setHovered*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.setPressed(System.Boolean)
+  commentId: M:UI.NewButtonScript.setPressed(System.Boolean)
+  id: setPressed(System.Boolean)
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: setPressed(Boolean)
+  nameWithType: NewButtonScript.setPressed(Boolean)
+  fullName: UI.NewButtonScript.setPressed(System.Boolean)
+  type: Method
+  source:
+    id: setPressed
+    path: ''
+    startLine: 2360
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nSet weather the item is pressed\n"
+  example: []
+  syntax:
+    content: public void setPressed(bool state)
+    parameters:
+    - id: state
+      type: System.Boolean
+      description: weather the item is pressed
+    content.vb: Public Sub setPressed(state As Boolean)
+  overload: UI.NewButtonScript.setPressed*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.setDisabled(System.Boolean)
+  commentId: M:UI.NewButtonScript.setDisabled(System.Boolean)
+  id: setDisabled(System.Boolean)
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: setDisabled(Boolean)
+  nameWithType: NewButtonScript.setDisabled(Boolean)
+  fullName: UI.NewButtonScript.setDisabled(System.Boolean)
+  type: Method
+  source:
+    id: setDisabled
+    path: ''
+    startLine: 2369
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nset weather the item is disabled\n"
+  example: []
+  syntax:
+    content: public void setDisabled(bool state)
+    parameters:
+    - id: state
+      type: System.Boolean
+      description: weather the item is disabled
+    content.vb: Public Sub setDisabled(state As Boolean)
+  overload: UI.NewButtonScript.setDisabled*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.setHoveringlayer(LayerMask)
+  commentId: M:UI.NewButtonScript.setHoveringlayer(LayerMask)
+  id: setHoveringlayer(LayerMask)
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: setHoveringlayer(LayerMask)
+  nameWithType: NewButtonScript.setHoveringlayer(LayerMask)
+  fullName: UI.NewButtonScript.setHoveringlayer(LayerMask)
+  type: Method
+  source:
+    id: setHoveringlayer
+    path: ''
+    startLine: 2378
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nSet the hovering layer for the button\n"
+  example: []
+  syntax:
+    content: public void setHoveringlayer(LayerMask hovering)
+    parameters:
+    - id: hovering
+      type: LayerMask
+      description: The layermask that is used for hovering
+    content.vb: Public Sub setHoveringlayer(hovering As LayerMask)
+  overload: UI.NewButtonScript.setHoveringlayer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.NewButtonScript.setActivatinglayer(LayerMask)
+  commentId: M:UI.NewButtonScript.setActivatinglayer(LayerMask)
+  id: setActivatinglayer(LayerMask)
+  parent: UI.NewButtonScript
+  langs:
+  - csharp
+  - vb
+  name: setActivatinglayer(LayerMask)
+  nameWithType: NewButtonScript.setActivatinglayer(LayerMask)
+  fullName: UI.NewButtonScript.setActivatinglayer(LayerMask)
+  type: Method
+  source:
+    id: setActivatinglayer
+    path: ''
+    startLine: 2386
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nSet the activating layer for the button\n"
+  example: []
+  syntax:
+    content: public void setActivatinglayer(LayerMask activating)
+    parameters:
+    - id: activating
+      type: LayerMask
+      description: The layermask that is used for activating
+    content.vb: Public Sub setActivatinglayer(activating As LayerMask)
+  overload: UI.NewButtonScript.setActivatinglayer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: UI
+  commentId: N:UI
+  name: UI
+  nameWithType: UI
+  fullName: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Gradient
+  isExternal: true
+  name: Gradient
+  nameWithType: Gradient
+  fullName: Gradient
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: LayerMask
+  isExternal: true
+  name: LayerMask
+  nameWithType: LayerMask
+  fullName: LayerMask
+- uid: GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: UI.NewButtonScript.setEnabled*
+  commentId: Overload:UI.NewButtonScript.setEnabled
+  name: setEnabled
+  nameWithType: NewButtonScript.setEnabled
+  fullName: UI.NewButtonScript.setEnabled
+- uid: UI.NewButtonScript.setHovered*
+  commentId: Overload:UI.NewButtonScript.setHovered
+  name: setHovered
+  nameWithType: NewButtonScript.setHovered
+  fullName: UI.NewButtonScript.setHovered
+- uid: UI.NewButtonScript.setPressed*
+  commentId: Overload:UI.NewButtonScript.setPressed
+  name: setPressed
+  nameWithType: NewButtonScript.setPressed
+  fullName: UI.NewButtonScript.setPressed
+- uid: UI.NewButtonScript.setDisabled*
+  commentId: Overload:UI.NewButtonScript.setDisabled
+  name: setDisabled
+  nameWithType: NewButtonScript.setDisabled
+  fullName: UI.NewButtonScript.setDisabled
+- uid: UI.NewButtonScript.setHoveringlayer*
+  commentId: Overload:UI.NewButtonScript.setHoveringlayer
+  name: setHoveringlayer
+  nameWithType: NewButtonScript.setHoveringlayer
+  fullName: UI.NewButtonScript.setHoveringlayer
+- uid: UI.NewButtonScript.setActivatinglayer*
+  commentId: Overload:UI.NewButtonScript.setActivatinglayer
+  name: setActivatinglayer
+  nameWithType: NewButtonScript.setActivatinglayer
+  fullName: UI.NewButtonScript.setActivatinglayer

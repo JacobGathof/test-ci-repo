@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DropDownControl
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DropDownControl
+   ">
+    <meta name="generator" content="docfx 2.41.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UI.DropDownControl">
+  
+  
+  <h1 id="UI_DropDownControl" data-uid="UI.DropDownControl" class="text-break">Class DropDownControl
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DropDownControl</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UI.html">UI</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="UI_DropDownControl_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DropDownControl : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="UI_DropDownControl_activating" data-uid="UI.DropDownControl.activating">activating</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">This is the layer mask that will be used to determine if the buttons are being activated</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LayerMask activating</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_boundingBox" data-uid="UI.DropDownControl.boundingBox">boundingBox</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The item that will surround all the items in the dropdown</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject boundingBox</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_BoxFade" data-uid="UI.DropDownControl.BoxFade">BoxFade</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Will the dropdown box use gradient or switch implementation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float BoxFade</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_boxGradient" data-uid="UI.DropDownControl.boxGradient">boxGradient</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Will the dropdown box use gradient or switch implementation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Gradient boxGradient</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Gradient</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_buttonGradient" data-uid="UI.DropDownControl.buttonGradient">buttonGradient</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Will the dropdown box use gradient or switch implementation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Gradient buttonGradient</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Gradient</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_changeInHeight" data-uid="UI.DropDownControl.changeInHeight">changeInHeight</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The difference in the heights of the item when drawn</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float changeInHeight</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_defaultnumber" data-uid="UI.DropDownControl.defaultnumber">defaultnumber</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Where in the list the item will appear in the drop down. If it will not appear in the dropdown, set to -1</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int defaultnumber</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_defaultString" data-uid="UI.DropDownControl.defaultString">defaultString</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The option that is selected if there is no input</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string defaultString</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_delay" data-uid="UI.DropDownControl.delay">delay</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Will the dropdown box use gradient or switch implementation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float delay</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_DropDownBoxGradient" data-uid="UI.DropDownControl.DropDownBoxGradient">DropDownBoxGradient</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Will the dropdown box use gradient or switch implementation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DropDownBoxGradient</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_DropDownItemGradient" data-uid="UI.DropDownControl.DropDownItemGradient">DropDownItemGradient</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Will the dropdown box use gradient or switch implementation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DropDownItemGradient</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_endColor" data-uid="UI.DropDownControl.endColor">endColor</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Will the dropdown box use gradient or switch implementation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color endColor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_firstOffset" data-uid="UI.DropDownControl.firstOffset">firstOffset</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The distance from base item and the first item of the dropdown</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float firstOffset</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_hangpercentage" data-uid="UI.DropDownControl.hangpercentage">hangpercentage</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Affects when an item will be faded out in the slider implementation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float hangpercentage</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_hovering" data-uid="UI.DropDownControl.hovering">hovering</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">This is the layer mask that will be used to determine if the buttons are being hovered on</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LayerMask hovering</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_interactable" data-uid="UI.DropDownControl.interactable">interactable</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">this is the bool used to determine if the item is interactable</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool interactable</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_ItemFade" data-uid="UI.DropDownControl.ItemFade">ItemFade</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Will the dropdown box use gradient or switch implementation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ItemFade</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_label" data-uid="UI.DropDownControl.label">label</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMesh label</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextMesh</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_maxOptionsShown" data-uid="UI.DropDownControl.maxOptionsShown">maxOptionsShown</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">How many options you can display</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int maxOptionsShown</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_oldSlider" data-uid="UI.DropDownControl.oldSlider">oldSlider</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Legacy code for implementing slider, may see the light of day pending slider support.
+Currently uses a normal Unity slider, but this would require a legitimate VR slider to be of use.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Slider oldSlider</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Slider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_onDropClick" data-uid="UI.DropDownControl.onDropClick">onDropClick</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent onDropClick</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_onEnter" data-uid="UI.DropDownControl.onEnter">onEnter</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent onEnter</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_onExit" data-uid="UI.DropDownControl.onExit">onExit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent onExit</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_onHover" data-uid="UI.DropDownControl.onHover">onHover</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent onHover</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_onSelectClick" data-uid="UI.DropDownControl.onSelectClick">onSelectClick</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent onSelectClick</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_onValueChanged" data-uid="UI.DropDownControl.onValueChanged">onValueChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DropDownControl.onValueChange onValueChanged</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UI.DropDownControl.onValueChange.html">DropDownControl.onValueChange</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_options" data-uid="UI.DropDownControl.options">options</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">lets users create buttons in the menu, contains information about making buttons on dropdown activation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DropDownControl.Option[] options</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UI.DropDownControl.Option.html">DropDownControl.Option</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_startColor" data-uid="UI.DropDownControl.startColor">startColor</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Will the dropdown box use gradient or switch implementation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color startColor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="UI_DropDownControl_template" data-uid="UI.DropDownControl.template">template</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The sub item that will be created in the dropdown</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject template</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="UI_DropDownControl_interactable__" data-uid="UI.DropDownControl.interactable_*"></a>
+  <h4 id="UI_DropDownControl_interactable_" data-uid="UI.DropDownControl.interactable_">interactable_</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Weather the dropdown is interactable, sets all items to off, but will not set all items to on if they were off before</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool interactable_ { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">The boolean that represents the state of the system</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="UI_DropDownControl_closeAndPick_" data-uid="UI.DropDownControl.closeAndPick*"></a>
+  <h4 id="UI_DropDownControl_closeAndPick_System_Int32_" data-uid="UI.DropDownControl.closeAndPick(System.Int32)">closeAndPick(Int32)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">This will handle the selection process and the event handling, calls the deconstruction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void closeAndPick(int chosen)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">chosen</span></td>
+        <td><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The integer of the index of the item in the options array that was picked</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UI_DropDownControl_setActivatinglayer_" data-uid="UI.DropDownControl.setActivatinglayer*"></a>
+  <h4 id="UI_DropDownControl_setActivatinglayer_LayerMask_" data-uid="UI.DropDownControl.setActivatinglayer(LayerMask)">setActivatinglayer(LayerMask)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">setter for the activating layer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setActivatinglayer(LayerMask activating)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
+        <td><span class="parametername">activating</span></td>
+        <td><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The layer mask we are using for activating</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UI_DropDownControl_setHoveringlayer_" data-uid="UI.DropDownControl.setHoveringlayer*"></a>
+  <h4 id="UI_DropDownControl_setHoveringlayer_LayerMask_" data-uid="UI.DropDownControl.setHoveringlayer(LayerMask)">setHoveringlayer(LayerMask)</h4>
+  <div class="markdown level1 summary"><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="2" sourceendlinenumber="2">setter for the hovering layer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setHoveringlayer(LayerMask hovering)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
+        <td><span class="parametername">hovering</span></td>
+        <td><p sourcefile="obj/api/UI.DropDownControl.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The layer mask we are using for hovering</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UI_DropDownControl_SliderUpdate_" data-uid="UI.DropDownControl.SliderUpdate*"></a>
+  <h4 id="UI_DropDownControl_SliderUpdate" data-uid="UI.DropDownControl.SliderUpdate">SliderUpdate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SliderUpdate()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

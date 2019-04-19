@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Gestures.ArcCheck.ARC_ORIENTATION
+  commentId: T:Gestures.ArcCheck.ARC_ORIENTATION
+  id: ArcCheck.ARC_ORIENTATION
+  parent: Gestures
+  children:
+  - Gestures.ArcCheck.ARC_ORIENTATION.XY
+  - Gestures.ArcCheck.ARC_ORIENTATION.XZ
+  - Gestures.ArcCheck.ARC_ORIENTATION.YZ
+  langs:
+  - csharp
+  - vb
+  name: ArcCheck.ARC_ORIENTATION
+  nameWithType: ArcCheck.ARC_ORIENTATION
+  fullName: Gestures.ArcCheck.ARC_ORIENTATION
+  type: Enum
+  source:
+    id: ARC_ORIENTATION
+    path: ''
+    startLine: 349
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public enum ARC_ORIENTATION
+    content.vb: Public Enum ARC_ORIENTATION
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Gestures.ArcCheck.ARC_ORIENTATION.XY
+  commentId: F:Gestures.ArcCheck.ARC_ORIENTATION.XY
+  id: XY
+  parent: Gestures.ArcCheck.ARC_ORIENTATION
+  langs:
+  - csharp
+  - vb
+  name: XY
+  nameWithType: ArcCheck.ARC_ORIENTATION.XY
+  fullName: Gestures.ArcCheck.ARC_ORIENTATION.XY
+  type: Field
+  source:
+    id: XY
+    path: ''
+    startLine: 350
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: XY = 0
+    return:
+      type: Gestures.ArcCheck.ARC_ORIENTATION
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Gestures.ArcCheck.ARC_ORIENTATION.YZ
+  commentId: F:Gestures.ArcCheck.ARC_ORIENTATION.YZ
+  id: YZ
+  parent: Gestures.ArcCheck.ARC_ORIENTATION
+  langs:
+  - csharp
+  - vb
+  name: YZ
+  nameWithType: ArcCheck.ARC_ORIENTATION.YZ
+  fullName: Gestures.ArcCheck.ARC_ORIENTATION.YZ
+  type: Field
+  source:
+    id: YZ
+    path: ''
+    startLine: 351
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: YZ = 1
+    return:
+      type: Gestures.ArcCheck.ARC_ORIENTATION
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Gestures.ArcCheck.ARC_ORIENTATION.XZ
+  commentId: F:Gestures.ArcCheck.ARC_ORIENTATION.XZ
+  id: XZ
+  parent: Gestures.ArcCheck.ARC_ORIENTATION
+  langs:
+  - csharp
+  - vb
+  name: XZ
+  nameWithType: ArcCheck.ARC_ORIENTATION.XZ
+  fullName: Gestures.ArcCheck.ARC_ORIENTATION.XZ
+  type: Field
+  source:
+    id: XZ
+    path: ''
+    startLine: 352
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: XZ = 2
+    return:
+      type: Gestures.ArcCheck.ARC_ORIENTATION
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Gestures
+  commentId: N:Gestures
+  name: Gestures
+  nameWithType: Gestures
+  fullName: Gestures
+- uid: Gestures.ArcCheck.ARC_ORIENTATION
+  commentId: T:Gestures.ArcCheck.ARC_ORIENTATION
+  parent: Gestures
+  name: ArcCheck.ARC_ORIENTATION
+  nameWithType: ArcCheck.ARC_ORIENTATION
+  fullName: Gestures.ArcCheck.ARC_ORIENTATION

@@ -1,0 +1,266 @@
+### YamlMime:ManagedReference
+items:
+- uid: Gestures.GTransform
+  commentId: T:Gestures.GTransform
+  id: GTransform
+  parent: Gestures
+  children:
+  - Gestures.GTransform.#ctor(Vector3,Quaternion,Vector3,System.Single)
+  - Gestures.GTransform.Copy
+  - Gestures.GTransform.position
+  - Gestures.GTransform.rotation
+  - Gestures.GTransform.time
+  - Gestures.GTransform.velocity
+  langs:
+  - csharp
+  - vb
+  name: GTransform
+  nameWithType: GTransform
+  fullName: Gestures.GTransform
+  type: Class
+  source:
+    id: GTransform
+    path: ''
+    startLine: 1339
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: "\nData class to contain all necessary information related to a controller transform\n"
+  example: []
+  syntax:
+    content: public class GTransform
+    content.vb: Public Class GTransform
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Gestures.GTransform.position
+  commentId: F:Gestures.GTransform.position
+  id: position
+  parent: Gestures.GTransform
+  langs:
+  - csharp
+  - vb
+  name: position
+  nameWithType: GTransform.position
+  fullName: Gestures.GTransform.position
+  type: Field
+  source:
+    id: position
+    path: ''
+    startLine: 1341
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public Vector3 position
+    return:
+      type: Vector3
+    content.vb: Public position As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.GTransform.rotation
+  commentId: F:Gestures.GTransform.rotation
+  id: rotation
+  parent: Gestures.GTransform
+  langs:
+  - csharp
+  - vb
+  name: rotation
+  nameWithType: GTransform.rotation
+  fullName: Gestures.GTransform.rotation
+  type: Field
+  source:
+    id: rotation
+    path: ''
+    startLine: 1342
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public Quaternion rotation
+    return:
+      type: Quaternion
+    content.vb: Public rotation As Quaternion
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.GTransform.velocity
+  commentId: F:Gestures.GTransform.velocity
+  id: velocity
+  parent: Gestures.GTransform
+  langs:
+  - csharp
+  - vb
+  name: velocity
+  nameWithType: GTransform.velocity
+  fullName: Gestures.GTransform.velocity
+  type: Field
+  source:
+    id: velocity
+    path: ''
+    startLine: 1343
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public Vector3 velocity
+    return:
+      type: Vector3
+    content.vb: Public velocity As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.GTransform.time
+  commentId: F:Gestures.GTransform.time
+  id: time
+  parent: Gestures.GTransform
+  langs:
+  - csharp
+  - vb
+  name: time
+  nameWithType: GTransform.time
+  fullName: Gestures.GTransform.time
+  type: Field
+  source:
+    id: time
+    path: ''
+    startLine: 1344
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public float time
+    return:
+      type: System.Single
+    content.vb: Public time As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.GTransform.#ctor(Vector3,Quaternion,Vector3,System.Single)
+  commentId: M:Gestures.GTransform.#ctor(Vector3,Quaternion,Vector3,System.Single)
+  id: '#ctor(Vector3,Quaternion,Vector3,System.Single)'
+  parent: Gestures.GTransform
+  langs:
+  - csharp
+  - vb
+  name: GTransform(Vector3, Quaternion, Vector3, Single)
+  nameWithType: GTransform.GTransform(Vector3, Quaternion, Vector3, Single)
+  fullName: Gestures.GTransform.GTransform(Vector3, Quaternion, Vector3, System.Single)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1346
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public GTransform(Vector3 pos, Quaternion quat, Vector3 vel, float t)
+    parameters:
+    - id: pos
+      type: Vector3
+    - id: quat
+      type: Quaternion
+    - id: vel
+      type: Vector3
+    - id: t
+      type: System.Single
+    content.vb: Public Sub New(pos As Vector3, quat As Quaternion, vel As Vector3, t As Single)
+  overload: Gestures.GTransform.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.GTransform.Copy
+  commentId: M:Gestures.GTransform.Copy
+  id: Copy
+  parent: Gestures.GTransform
+  langs:
+  - csharp
+  - vb
+  name: Copy()
+  nameWithType: GTransform.Copy()
+  fullName: Gestures.GTransform.Copy()
+  type: Method
+  source:
+    id: Copy
+    path: ''
+    startLine: 1359
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: "\nCreate a copy of the GTransform instance\n"
+  example: []
+  syntax:
+    content: public GTransform Copy()
+    return:
+      type: Gestures.GTransform
+      description: "\nReturn new `GTransform` with the same data as the object this method was called on.\n"
+    content.vb: Public Function Copy As GTransform
+  overload: Gestures.GTransform.Copy*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Gestures
+  commentId: N:Gestures
+  name: Gestures
+  nameWithType: Gestures
+  fullName: Gestures
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Quaternion
+  isExternal: true
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Quaternion
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Gestures.GTransform.#ctor*
+  commentId: Overload:Gestures.GTransform.#ctor
+  name: GTransform
+  nameWithType: GTransform.GTransform
+  fullName: Gestures.GTransform.GTransform
+- uid: Gestures.GTransform.Copy*
+  commentId: Overload:Gestures.GTransform.Copy
+  name: Copy
+  nameWithType: GTransform.Copy
+  fullName: Gestures.GTransform.Copy
+- uid: Gestures.GTransform
+  commentId: T:Gestures.GTransform
+  parent: Gestures
+  name: GTransform
+  nameWithType: GTransform
+  fullName: Gestures.GTransform

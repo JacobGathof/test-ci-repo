@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.RotateToUser
+  commentId: T:UI.RotateToUser
+  id: RotateToUser
+  parent: UI
+  children:
+  - UI.RotateToUser.distanceFromPivotPoint
+  - UI.RotateToUser.pivotPoint
+  - UI.RotateToUser.userCamera
+  langs:
+  - csharp
+  - vb
+  name: RotateToUser
+  nameWithType: RotateToUser
+  fullName: UI.RotateToUser
+  type: Class
+  source:
+    id: RotateToUser
+    path: ''
+    startLine: 3479
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: 'public class RotateToUser : MonoBehaviour'
+    content.vb: >-
+      Public Class RotateToUser
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UI.RotateToUser.userCamera
+  commentId: F:UI.RotateToUser.userCamera
+  id: userCamera
+  parent: UI.RotateToUser
+  langs:
+  - csharp
+  - vb
+  name: userCamera
+  nameWithType: RotateToUser.userCamera
+  fullName: UI.RotateToUser.userCamera
+  type: Field
+  source:
+    id: userCamera
+    path: ''
+    startLine: 3484
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nThe camera that the user uses to see the world\n"
+  example: []
+  syntax:
+    content: public GameObject userCamera
+    return:
+      type: GameObject
+    content.vb: Public userCamera As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.RotateToUser.pivotPoint
+  commentId: F:UI.RotateToUser.pivotPoint
+  id: pivotPoint
+  parent: UI.RotateToUser
+  langs:
+  - csharp
+  - vb
+  name: pivotPoint
+  nameWithType: RotateToUser.pivotPoint
+  fullName: UI.RotateToUser.pivotPoint
+  type: Field
+  source:
+    id: pivotPoint
+    path: ''
+    startLine: 3489
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nWhat this object will orbit around\n"
+  example: []
+  syntax:
+    content: public GameObject pivotPoint
+    return:
+      type: GameObject
+    content.vb: Public pivotPoint As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.RotateToUser.distanceFromPivotPoint
+  commentId: F:UI.RotateToUser.distanceFromPivotPoint
+  id: distanceFromPivotPoint
+  parent: UI.RotateToUser
+  langs:
+  - csharp
+  - vb
+  name: distanceFromPivotPoint
+  nameWithType: RotateToUser.distanceFromPivotPoint
+  fullName: UI.RotateToUser.distanceFromPivotPoint
+  type: Field
+  source:
+    id: distanceFromPivotPoint
+    path: ''
+    startLine: 3494
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nDistance this object will orbit around the pivotPoint\n"
+  example: []
+  syntax:
+    content: public float distanceFromPivotPoint
+    return:
+      type: System.Single
+    content.vb: Public distanceFromPivotPoint As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: UI
+  commentId: N:UI
+  name: UI
+  nameWithType: UI
+  fullName: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: Gestures.IController
+  commentId: T:Gestures.IController
+  id: IController
+  parent: Gestures
+  children:
+  - Gestures.IController.GestureActive
+  - Gestures.IController.QueryGTransform
+  langs:
+  - csharp
+  - vb
+  name: IController
+  nameWithType: IController
+  fullName: Gestures.IController
+  type: Class
+  source:
+    id: IController
+    path: ''
+    startLine: 671
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: "\nAbstract class which is responsible for tracking transform data for a VR headset. \n"
+  remarks: "\nAlthough we have only provided support for Oculus Rift Touch Controllers, any headset may be used if an appropriate concrete implementation of this class is created\n"
+  example: []
+  syntax:
+    content: 'public abstract class IController : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class IController
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Gestures.TouchController
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Gestures.IController.QueryGTransform
+  commentId: M:Gestures.IController.QueryGTransform
+  id: QueryGTransform
+  parent: Gestures.IController
+  langs:
+  - csharp
+  - vb
+  name: QueryGTransform()
+  nameWithType: IController.QueryGTransform()
+  fullName: Gestures.IController.QueryGTransform()
+  type: Method
+  source:
+    id: QueryGTransform
+    path: ''
+    startLine: 677
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: "\nGenerate the data representing the necessary transform data for a given controller\n"
+  example: []
+  syntax:
+    content: public abstract GTransform QueryGTransform()
+    return:
+      type: Gestures.GTransform
+      description: Returns `GTransform` instance containing transform data
+    content.vb: Public MustOverride Function QueryGTransform As GTransform
+  overload: Gestures.IController.QueryGTransform*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Gestures.IController.GestureActive
+  commentId: M:Gestures.IController.GestureActive
+  id: GestureActive
+  parent: Gestures.IController
+  langs:
+  - csharp
+  - vb
+  name: GestureActive()
+  nameWithType: IController.GestureActive()
+  fullName: Gestures.IController.GestureActive()
+  type: Method
+  source:
+    id: GestureActive
+    path: ''
+    startLine: 686
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: "\nThis method will query the controller to determine whether the gesture should be tracked or not.\n"
+  remarks: "\nThe most common implementation of this method simply returns whether a specific button is pressed.\n"
+  example: []
+  syntax:
+    content: public abstract bool GestureActive()
+    return:
+      type: System.Boolean
+      description: Return `true` if a gesture should be active, `false` otherwise
+    content.vb: Public MustOverride Function GestureActive As Boolean
+  overload: Gestures.IController.GestureActive*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+references:
+- uid: Gestures
+  commentId: N:Gestures
+  name: Gestures
+  nameWithType: Gestures
+  fullName: Gestures
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Gestures.IController.QueryGTransform*
+  commentId: Overload:Gestures.IController.QueryGTransform
+  name: QueryGTransform
+  nameWithType: IController.QueryGTransform
+  fullName: Gestures.IController.QueryGTransform
+- uid: Gestures.GTransform
+  commentId: T:Gestures.GTransform
+  parent: Gestures
+  name: GTransform
+  nameWithType: GTransform
+  fullName: Gestures.GTransform
+- uid: Gestures.IController.GestureActive*
+  commentId: Overload:Gestures.IController.GestureActive
+  name: GestureActive
+  nameWithType: IController.GestureActive
+  fullName: Gestures.IController.GestureActive
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

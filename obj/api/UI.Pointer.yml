@@ -1,0 +1,115 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.Pointer
+  commentId: T:UI.Pointer
+  id: Pointer
+  parent: UI
+  children:
+  - UI.Pointer.initialLayer
+  - UI.Pointer.layerForCollision
+  langs:
+  - csharp
+  - vb
+  name: Pointer
+  nameWithType: Pointer
+  fullName: UI.Pointer
+  type: Class
+  source:
+    id: Pointer
+    path: ''
+    startLine: 3234
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: 'public class Pointer : MonoBehaviour'
+    content.vb: >-
+      Public Class Pointer
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UI.Pointer.initialLayer
+  commentId: F:UI.Pointer.initialLayer
+  id: initialLayer
+  parent: UI.Pointer
+  langs:
+  - csharp
+  - vb
+  name: initialLayer
+  nameWithType: Pointer.initialLayer
+  fullName: UI.Pointer.initialLayer
+  type: Field
+  source:
+    id: initialLayer
+    path: ''
+    startLine: 3235
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public LayerMask initialLayer
+    return:
+      type: LayerMask
+    content.vb: Public initialLayer As LayerMask
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.Pointer.layerForCollision
+  commentId: F:UI.Pointer.layerForCollision
+  id: layerForCollision
+  parent: UI.Pointer
+  langs:
+  - csharp
+  - vb
+  name: layerForCollision
+  nameWithType: Pointer.layerForCollision
+  fullName: UI.Pointer.layerForCollision
+  type: Field
+  source:
+    id: layerForCollision
+    path: ''
+    startLine: 3236
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public LayerMask layerForCollision
+    return:
+      type: LayerMask
+    content.vb: Public layerForCollision As LayerMask
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: UI
+  commentId: N:UI
+  name: UI
+  nameWithType: UI
+  fullName: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LayerMask
+  isExternal: true
+  name: LayerMask
+  nameWithType: LayerMask
+  fullName: LayerMask

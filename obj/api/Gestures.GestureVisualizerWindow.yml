@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Gestures.GestureVisualizerWindow
+  commentId: T:Gestures.GestureVisualizerWindow
+  id: GestureVisualizerWindow
+  parent: Gestures
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: GestureVisualizerWindow
+  nameWithType: GestureVisualizerWindow
+  fullName: Gestures.GestureVisualizerWindow
+  type: Class
+  source:
+    id: GestureVisualizerWindow
+    path: ''
+    startLine: 1449
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: 'public class GestureVisualizerWindow : EditorWindow'
+    content.vb: >-
+      Public Class GestureVisualizerWindow
+
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Gestures
+  commentId: N:Gestures
+  name: Gestures
+  nameWithType: Gestures
+  fullName: Gestures
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

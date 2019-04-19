@@ -1,0 +1,282 @@
+### YamlMime:ManagedReference
+items:
+- uid: Gestures.SpeedCheck
+  commentId: T:Gestures.SpeedCheck
+  id: SpeedCheck
+  parent: Gestures
+  children:
+  - Gestures.SpeedCheck.#ctor(System.Single,System.Boolean)
+  - Gestures.SpeedCheck.CheckPasses(Gestures.GTransform)
+  - Gestures.SpeedCheck.VisualizeCheck(Rect)
+  langs:
+  - csharp
+  - vb
+  name: SpeedCheck
+  nameWithType: SpeedCheck
+  fullName: Gestures.SpeedCheck
+  type: Class
+  source:
+    id: SpeedCheck
+    path: ''
+    startLine: 633
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: "\nA check to ensure velocity between data points is greater or less than a certain velocity.\n"
+  example: []
+  syntax:
+    content: 'public class SpeedCheck : Check'
+    content.vb: >-
+      Public Class SpeedCheck
+
+          Inherits Check
+  inheritance:
+  - System.Object
+  - Gestures.Check
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Gestures.SpeedCheck.#ctor(System.Single,System.Boolean)
+  commentId: M:Gestures.SpeedCheck.#ctor(System.Single,System.Boolean)
+  id: '#ctor(System.Single,System.Boolean)'
+  parent: Gestures.SpeedCheck
+  langs:
+  - csharp
+  - vb
+  name: SpeedCheck(Single, Boolean)
+  nameWithType: SpeedCheck.SpeedCheck(Single, Boolean)
+  fullName: Gestures.SpeedCheck.SpeedCheck(System.Single, System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 642
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public SpeedCheck(float targetSpeed, bool greaterThan)
+    parameters:
+    - id: targetSpeed
+      type: System.Single
+      description: The target speed to check against
+    - id: greaterThan
+      type: System.Boolean
+      description: Flag to indicate whether or not to check less or greater than target speed.
+    content.vb: Public Sub New(targetSpeed As Single, greaterThan As Boolean)
+  overload: Gestures.SpeedCheck.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.SpeedCheck.CheckPasses(Gestures.GTransform)
+  commentId: M:Gestures.SpeedCheck.CheckPasses(Gestures.GTransform)
+  id: CheckPasses(Gestures.GTransform)
+  parent: Gestures.SpeedCheck
+  langs:
+  - csharp
+  - vb
+  name: CheckPasses(GTransform)
+  nameWithType: SpeedCheck.CheckPasses(GTransform)
+  fullName: Gestures.SpeedCheck.CheckPasses(Gestures.GTransform)
+  type: Method
+  source:
+    id: CheckPasses
+    path: ''
+    startLine: 647
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public override float CheckPasses(GTransform gTransform)
+    parameters:
+    - id: gTransform
+      type: Gestures.GTransform
+    return:
+      type: System.Single
+    content.vb: Public Overrides Function CheckPasses(gTransform As GTransform) As Single
+  overridden: Gestures.Check.CheckPasses(Gestures.GTransform)
+  overload: Gestures.SpeedCheck.CheckPasses*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Gestures.SpeedCheck.VisualizeCheck(Rect)
+  commentId: M:Gestures.SpeedCheck.VisualizeCheck(Rect)
+  id: VisualizeCheck(Rect)
+  parent: Gestures.SpeedCheck
+  langs:
+  - csharp
+  - vb
+  name: VisualizeCheck(Rect)
+  nameWithType: SpeedCheck.VisualizeCheck(Rect)
+  fullName: Gestures.SpeedCheck.VisualizeCheck(Rect)
+  type: Method
+  source:
+    id: VisualizeCheck
+    path: ''
+    startLine: 652
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public override void VisualizeCheck(Rect grid)
+    parameters:
+    - id: grid
+      type: Rect
+    content.vb: Public Overrides Sub VisualizeCheck(grid As Rect)
+  overridden: Gestures.Check.VisualizeCheck(Rect)
+  overload: Gestures.SpeedCheck.VisualizeCheck*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Gestures
+  commentId: N:Gestures
+  name: Gestures
+  nameWithType: Gestures
+  fullName: Gestures
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Gestures.Check
+  commentId: T:Gestures.Check
+  parent: Gestures
+  name: Check
+  nameWithType: Check
+  fullName: Gestures.Check
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Gestures.SpeedCheck.#ctor*
+  commentId: Overload:Gestures.SpeedCheck.#ctor
+  name: SpeedCheck
+  nameWithType: SpeedCheck.SpeedCheck
+  fullName: Gestures.SpeedCheck.SpeedCheck
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Gestures.Check.CheckPasses(Gestures.GTransform)
+  commentId: M:Gestures.Check.CheckPasses(Gestures.GTransform)
+  parent: Gestures.Check
+  name: CheckPasses(GTransform)
+  nameWithType: Check.CheckPasses(GTransform)
+  fullName: Gestures.Check.CheckPasses(Gestures.GTransform)
+  spec.csharp:
+  - uid: Gestures.Check.CheckPasses(Gestures.GTransform)
+    name: CheckPasses
+    nameWithType: Check.CheckPasses
+    fullName: Gestures.Check.CheckPasses
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Gestures.GTransform
+    name: GTransform
+    nameWithType: GTransform
+    fullName: Gestures.GTransform
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.Check.CheckPasses(Gestures.GTransform)
+    name: CheckPasses
+    nameWithType: Check.CheckPasses
+    fullName: Gestures.Check.CheckPasses
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Gestures.GTransform
+    name: GTransform
+    nameWithType: GTransform
+    fullName: Gestures.GTransform
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.SpeedCheck.CheckPasses*
+  commentId: Overload:Gestures.SpeedCheck.CheckPasses
+  name: CheckPasses
+  nameWithType: SpeedCheck.CheckPasses
+  fullName: Gestures.SpeedCheck.CheckPasses
+- uid: Gestures.GTransform
+  commentId: T:Gestures.GTransform
+  parent: Gestures
+  name: GTransform
+  nameWithType: GTransform
+  fullName: Gestures.GTransform
+- uid: Gestures.Check.VisualizeCheck(Rect)
+  commentId: M:Gestures.Check.VisualizeCheck(Rect)
+  parent: Gestures.Check
+  isExternal: true
+  name: VisualizeCheck(Rect)
+  nameWithType: Check.VisualizeCheck(Rect)
+  fullName: Gestures.Check.VisualizeCheck(Rect)
+  spec.csharp:
+  - uid: Gestures.Check.VisualizeCheck(Rect)
+    name: VisualizeCheck
+    nameWithType: Check.VisualizeCheck
+    fullName: Gestures.Check.VisualizeCheck
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.Check.VisualizeCheck(Rect)
+    name: VisualizeCheck
+    nameWithType: Check.VisualizeCheck
+    fullName: Gestures.Check.VisualizeCheck
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.SpeedCheck.VisualizeCheck*
+  commentId: Overload:Gestures.SpeedCheck.VisualizeCheck
+  name: VisualizeCheck
+  nameWithType: SpeedCheck.VisualizeCheck
+  fullName: Gestures.SpeedCheck.VisualizeCheck
+- uid: Rect
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: Rect

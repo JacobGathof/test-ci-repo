@@ -1,0 +1,338 @@
+### YamlMime:ManagedReference
+items:
+- uid: Gestures.FittedNormalizer
+  commentId: T:Gestures.FittedNormalizer
+  id: FittedNormalizer
+  parent: Gestures
+  children:
+  - Gestures.FittedNormalizer.#ctor
+  - Gestures.FittedNormalizer.#ctor(Vector3,Vector3,System.Boolean)
+  - Gestures.FittedNormalizer.Normalize(System.Collections.Generic.List{Gestures.GTransform})
+  langs:
+  - csharp
+  - vb
+  name: FittedNormalizer
+  nameWithType: FittedNormalizer
+  fullName: Gestures.FittedNormalizer
+  type: Class
+  source:
+    id: FittedNormalizer
+    path: ''
+    startLine: 1616
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: "\nFitted Normalizer will be the standard normalizer for any 2D or 3D Gestures.  \n"
+  example: []
+  syntax:
+    content: 'public class FittedNormalizer : Normalizer'
+    content.vb: >-
+      Public Class FittedNormalizer
+
+          Implements Normalizer
+  inheritance:
+  - System.Object
+  implements:
+  - Gestures.Normalizer
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Gestures.FittedNormalizer.#ctor
+  commentId: M:Gestures.FittedNormalizer.#ctor
+  id: '#ctor'
+  parent: Gestures.FittedNormalizer
+  langs:
+  - csharp
+  - vb
+  name: FittedNormalizer()
+  nameWithType: FittedNormalizer.FittedNormalizer()
+  fullName: Gestures.FittedNormalizer.FittedNormalizer()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1621
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public FittedNormalizer()
+    content.vb: Public Sub New
+  overload: Gestures.FittedNormalizer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.FittedNormalizer.#ctor(Vector3,Vector3,System.Boolean)
+  commentId: M:Gestures.FittedNormalizer.#ctor(Vector3,Vector3,System.Boolean)
+  id: '#ctor(Vector3,Vector3,System.Boolean)'
+  parent: Gestures.FittedNormalizer
+  langs:
+  - csharp
+  - vb
+  name: FittedNormalizer(Vector3, Vector3, Boolean)
+  nameWithType: FittedNormalizer.FittedNormalizer(Vector3, Vector3, Boolean)
+  fullName: Gestures.FittedNormalizer.FittedNormalizer(Vector3, Vector3, System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1629
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: "\nCreate a new Fitted Normalizer with specific bounds\n"
+  example: []
+  syntax:
+    content: public FittedNormalizer(Vector3 bottomLeft, Vector3 topRight, bool maintainAspectRatio = false)
+    parameters:
+    - id: bottomLeft
+      type: Vector3
+      description: Vector3 defining the bottomleft-most coordinate of the bounding box encompassing the Gesture
+    - id: topRight
+      type: Vector3
+      description: Vector3 defining the topright-most coordinate of the bounding box encompassing the Gesture
+    - id: maintainAspectRatio
+      type: System.Boolean
+      description: '`True` if the Gesture must be performed such that the aspect ratio of the drawn figure matches the aspect ratio of the Gesture definition. Most of the time, this should be `False`'
+    content.vb: Public Sub New(bottomLeft As Vector3, topRight As Vector3, maintainAspectRatio As Boolean = False)
+  overload: Gestures.FittedNormalizer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.FittedNormalizer.Normalize(System.Collections.Generic.List{Gestures.GTransform})
+  commentId: M:Gestures.FittedNormalizer.Normalize(System.Collections.Generic.List{Gestures.GTransform})
+  id: Normalize(System.Collections.Generic.List{Gestures.GTransform})
+  parent: Gestures.FittedNormalizer
+  langs:
+  - csharp
+  - vb
+  name: Normalize(List<GTransform>)
+  nameWithType: FittedNormalizer.Normalize(List<GTransform>)
+  fullName: Gestures.FittedNormalizer.Normalize(System.Collections.Generic.List<Gestures.GTransform>)
+  type: Method
+  source:
+    id: Normalize
+    path: ''
+    startLine: 1648
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public List<GTransform> Normalize(List<GTransform> data)
+    parameters:
+    - id: data
+      type: System.Collections.Generic.List{Gestures.GTransform}
+    return:
+      type: System.Collections.Generic.List{Gestures.GTransform}
+    content.vb: Public Function Normalize(data As List(Of GTransform)) As List(Of GTransform)
+  overload: Gestures.FittedNormalizer.Normalize*
+  implements:
+  - Gestures.Normalizer.Normalize(System.Collections.Generic.List{Gestures.GTransform})
+  nameWithType.vb: FittedNormalizer.Normalize(List(Of GTransform))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Gestures.FittedNormalizer.Normalize(System.Collections.Generic.List(Of Gestures.GTransform))
+  name.vb: Normalize(List(Of GTransform))
+references:
+- uid: Gestures
+  commentId: N:Gestures
+  name: Gestures
+  nameWithType: Gestures
+  fullName: Gestures
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Gestures.Normalizer
+  commentId: T:Gestures.Normalizer
+  parent: Gestures
+  name: Normalizer
+  nameWithType: Normalizer
+  fullName: Gestures.Normalizer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Gestures.FittedNormalizer.#ctor*
+  commentId: Overload:Gestures.FittedNormalizer.#ctor
+  name: FittedNormalizer
+  nameWithType: FittedNormalizer.FittedNormalizer
+  fullName: Gestures.FittedNormalizer.FittedNormalizer
+- uid: Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Gestures.FittedNormalizer.Normalize*
+  commentId: Overload:Gestures.FittedNormalizer.Normalize
+  name: Normalize
+  nameWithType: FittedNormalizer.Normalize
+  fullName: Gestures.FittedNormalizer.Normalize
+- uid: Gestures.Normalizer.Normalize(System.Collections.Generic.List{Gestures.GTransform})
+  commentId: M:Gestures.Normalizer.Normalize(System.Collections.Generic.List{Gestures.GTransform})
+  parent: Gestures.Normalizer
+  isExternal: true
+  name: Normalize(List<GTransform>)
+  nameWithType: Normalizer.Normalize(List<GTransform>)
+  fullName: Gestures.Normalizer.Normalize(System.Collections.Generic.List<Gestures.GTransform>)
+  nameWithType.vb: Normalizer.Normalize(List(Of GTransform))
+  fullName.vb: Gestures.Normalizer.Normalize(System.Collections.Generic.List(Of Gestures.GTransform))
+  name.vb: Normalize(List(Of GTransform))
+  spec.csharp:
+  - uid: Gestures.Normalizer.Normalize(System.Collections.Generic.List{Gestures.GTransform})
+    name: Normalize
+    nameWithType: Normalizer.Normalize
+    fullName: Gestures.Normalizer.Normalize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Gestures.GTransform
+    name: GTransform
+    nameWithType: GTransform
+    fullName: Gestures.GTransform
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.Normalizer.Normalize(System.Collections.Generic.List{Gestures.GTransform})
+    name: Normalize
+    nameWithType: Normalizer.Normalize
+    fullName: Gestures.Normalizer.Normalize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Gestures.GTransform
+    name: GTransform
+    nameWithType: GTransform
+    fullName: Gestures.GTransform
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{Gestures.GTransform}
+  commentId: T:System.Collections.Generic.List{Gestures.GTransform}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<GTransform>
+  nameWithType: List<GTransform>
+  fullName: System.Collections.Generic.List<Gestures.GTransform>
+  nameWithType.vb: List(Of GTransform)
+  fullName.vb: System.Collections.Generic.List(Of Gestures.GTransform)
+  name.vb: List(Of GTransform)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Gestures.GTransform
+    name: GTransform
+    nameWithType: GTransform
+    fullName: Gestures.GTransform
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Gestures.GTransform
+    name: GTransform
+    nameWithType: GTransform
+    fullName: Gestures.GTransform
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

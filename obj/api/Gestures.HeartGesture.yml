@@ -1,0 +1,721 @@
+### YamlMime:ManagedReference
+items:
+- uid: Gestures.HeartGesture
+  commentId: T:Gestures.HeartGesture
+  id: HeartGesture
+  parent: Gestures
+  children:
+  - Gestures.HeartGesture.#ctor
+  langs:
+  - csharp
+  - vb
+  name: HeartGesture
+  nameWithType: HeartGesture
+  fullName: Gestures.HeartGesture
+  type: Class
+  source:
+    id: HeartGesture
+    path: ''
+    startLine: 267
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: "\nA heart gesture set witha FittedNormalizer.\n"
+  example: []
+  syntax:
+    content: 'public class HeartGesture : Gesture'
+    content.vb: >-
+      Public Class HeartGesture
+
+          Inherits Gesture
+  inheritance:
+  - System.Object
+  - Gestures.Gesture
+  inheritedMembers:
+  - Gestures.Gesture.checks
+  - Gestures.Gesture.sequentialChecks
+  - Gestures.Gesture.alwaysChecks
+  - Gestures.Gesture.isEnabled
+  - Gestures.Gesture.normalizer
+  - Gestures.Gesture.completeEvent
+  - Gestures.Gesture.gestureCompleteConfidence
+  - Gestures.Gesture.gestureCompletionPrecision
+  - Gestures.Gesture.GestureCompleted(System.Collections.Generic.List{Gestures.GTransform})
+  - Gestures.Gesture.FireEvent(Gestures.GestureMetaData)
+  - Gestures.Gesture.AddEvent(UnityAction{Gestures.GestureMetaData})
+  - Gestures.Gesture.ClearEvents
+  - Gestures.Gesture.SetNormalizer(Gestures.Normalizer)
+  - Gestures.Gesture.AddOnceCheck(Gestures.Check)
+  - Gestures.Gesture.AddOnceChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  - Gestures.Gesture.AddAlwaysCheck(Gestures.Check)
+  - Gestures.Gesture.AddAlwaysChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  - Gestures.Gesture.AddSequentialCheck(Gestures.Check)
+  - Gestures.Gesture.AddSequentialChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  - Gestures.Gesture.VisualizeGesture(Rect)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Gestures.HeartGesture.#ctor
+  commentId: M:Gestures.HeartGesture.#ctor
+  id: '#ctor'
+  parent: Gestures.HeartGesture
+  langs:
+  - csharp
+  - vb
+  name: HeartGesture()
+  nameWithType: HeartGesture.HeartGesture()
+  fullName: Gestures.HeartGesture.HeartGesture()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 269
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public HeartGesture()
+    content.vb: Public Sub New
+  overload: Gestures.HeartGesture.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Gestures
+  commentId: N:Gestures
+  name: Gestures
+  nameWithType: Gestures
+  fullName: Gestures
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Gestures.Gesture
+  commentId: T:Gestures.Gesture
+  parent: Gestures
+  name: Gesture
+  nameWithType: Gesture
+  fullName: Gestures.Gesture
+- uid: Gestures.Gesture.checks
+  commentId: F:Gestures.Gesture.checks
+  parent: Gestures.Gesture
+  name: checks
+  nameWithType: Gesture.checks
+  fullName: Gestures.Gesture.checks
+- uid: Gestures.Gesture.sequentialChecks
+  commentId: F:Gestures.Gesture.sequentialChecks
+  parent: Gestures.Gesture
+  name: sequentialChecks
+  nameWithType: Gesture.sequentialChecks
+  fullName: Gestures.Gesture.sequentialChecks
+- uid: Gestures.Gesture.alwaysChecks
+  commentId: F:Gestures.Gesture.alwaysChecks
+  parent: Gestures.Gesture
+  name: alwaysChecks
+  nameWithType: Gesture.alwaysChecks
+  fullName: Gestures.Gesture.alwaysChecks
+- uid: Gestures.Gesture.isEnabled
+  commentId: P:Gestures.Gesture.isEnabled
+  parent: Gestures.Gesture
+  name: isEnabled
+  nameWithType: Gesture.isEnabled
+  fullName: Gestures.Gesture.isEnabled
+- uid: Gestures.Gesture.normalizer
+  commentId: F:Gestures.Gesture.normalizer
+  parent: Gestures.Gesture
+  name: normalizer
+  nameWithType: Gesture.normalizer
+  fullName: Gestures.Gesture.normalizer
+- uid: Gestures.Gesture.completeEvent
+  commentId: F:Gestures.Gesture.completeEvent
+  parent: Gestures.Gesture
+  name: completeEvent
+  nameWithType: Gesture.completeEvent
+  fullName: Gestures.Gesture.completeEvent
+- uid: Gestures.Gesture.gestureCompleteConfidence
+  commentId: P:Gestures.Gesture.gestureCompleteConfidence
+  parent: Gestures.Gesture
+  name: gestureCompleteConfidence
+  nameWithType: Gesture.gestureCompleteConfidence
+  fullName: Gestures.Gesture.gestureCompleteConfidence
+- uid: Gestures.Gesture.gestureCompletionPrecision
+  commentId: F:Gestures.Gesture.gestureCompletionPrecision
+  parent: Gestures.Gesture
+  name: gestureCompletionPrecision
+  nameWithType: Gesture.gestureCompletionPrecision
+  fullName: Gestures.Gesture.gestureCompletionPrecision
+- uid: Gestures.Gesture.GestureCompleted(System.Collections.Generic.List{Gestures.GTransform})
+  commentId: M:Gestures.Gesture.GestureCompleted(System.Collections.Generic.List{Gestures.GTransform})
+  parent: Gestures.Gesture
+  isExternal: true
+  name: GestureCompleted(List<GTransform>)
+  nameWithType: Gesture.GestureCompleted(List<GTransform>)
+  fullName: Gestures.Gesture.GestureCompleted(System.Collections.Generic.List<Gestures.GTransform>)
+  nameWithType.vb: Gesture.GestureCompleted(List(Of GTransform))
+  fullName.vb: Gestures.Gesture.GestureCompleted(System.Collections.Generic.List(Of Gestures.GTransform))
+  name.vb: GestureCompleted(List(Of GTransform))
+  spec.csharp:
+  - uid: Gestures.Gesture.GestureCompleted(System.Collections.Generic.List{Gestures.GTransform})
+    name: GestureCompleted
+    nameWithType: Gesture.GestureCompleted
+    fullName: Gestures.Gesture.GestureCompleted
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Gestures.GTransform
+    name: GTransform
+    nameWithType: GTransform
+    fullName: Gestures.GTransform
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.Gesture.GestureCompleted(System.Collections.Generic.List{Gestures.GTransform})
+    name: GestureCompleted
+    nameWithType: Gesture.GestureCompleted
+    fullName: Gestures.Gesture.GestureCompleted
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Gestures.GTransform
+    name: GTransform
+    nameWithType: GTransform
+    fullName: Gestures.GTransform
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.Gesture.FireEvent(Gestures.GestureMetaData)
+  commentId: M:Gestures.Gesture.FireEvent(Gestures.GestureMetaData)
+  parent: Gestures.Gesture
+  name: FireEvent(GestureMetaData)
+  nameWithType: Gesture.FireEvent(GestureMetaData)
+  fullName: Gestures.Gesture.FireEvent(Gestures.GestureMetaData)
+  spec.csharp:
+  - uid: Gestures.Gesture.FireEvent(Gestures.GestureMetaData)
+    name: FireEvent
+    nameWithType: Gesture.FireEvent
+    fullName: Gestures.Gesture.FireEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Gestures.GestureMetaData
+    name: GestureMetaData
+    nameWithType: GestureMetaData
+    fullName: Gestures.GestureMetaData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.Gesture.FireEvent(Gestures.GestureMetaData)
+    name: FireEvent
+    nameWithType: Gesture.FireEvent
+    fullName: Gestures.Gesture.FireEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Gestures.GestureMetaData
+    name: GestureMetaData
+    nameWithType: GestureMetaData
+    fullName: Gestures.GestureMetaData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.Gesture.AddEvent(UnityAction{Gestures.GestureMetaData})
+  commentId: M:Gestures.Gesture.AddEvent(UnityAction{Gestures.GestureMetaData})
+  parent: Gestures.Gesture
+  isExternal: true
+  name: AddEvent(UnityAction<GestureMetaData>)
+  nameWithType: Gesture.AddEvent(UnityAction<GestureMetaData>)
+  fullName: Gestures.Gesture.AddEvent(UnityAction<Gestures.GestureMetaData>)
+  nameWithType.vb: Gesture.AddEvent(UnityAction(Of GestureMetaData))
+  fullName.vb: Gestures.Gesture.AddEvent(UnityAction(Of Gestures.GestureMetaData))
+  name.vb: AddEvent(UnityAction(Of GestureMetaData))
+  spec.csharp:
+  - uid: Gestures.Gesture.AddEvent(UnityAction{Gestures.GestureMetaData})
+    name: AddEvent
+    nameWithType: Gesture.AddEvent
+    fullName: Gestures.Gesture.AddEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Gestures.GestureMetaData
+    name: GestureMetaData
+    nameWithType: GestureMetaData
+    fullName: Gestures.GestureMetaData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.Gesture.AddEvent(UnityAction{Gestures.GestureMetaData})
+    name: AddEvent
+    nameWithType: Gesture.AddEvent
+    fullName: Gestures.Gesture.AddEvent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Gestures.GestureMetaData
+    name: GestureMetaData
+    nameWithType: GestureMetaData
+    fullName: Gestures.GestureMetaData
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.Gesture.ClearEvents
+  commentId: M:Gestures.Gesture.ClearEvents
+  parent: Gestures.Gesture
+  name: ClearEvents()
+  nameWithType: Gesture.ClearEvents()
+  fullName: Gestures.Gesture.ClearEvents()
+  spec.csharp:
+  - uid: Gestures.Gesture.ClearEvents
+    name: ClearEvents
+    nameWithType: Gesture.ClearEvents
+    fullName: Gestures.Gesture.ClearEvents
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.Gesture.ClearEvents
+    name: ClearEvents
+    nameWithType: Gesture.ClearEvents
+    fullName: Gestures.Gesture.ClearEvents
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.Gesture.SetNormalizer(Gestures.Normalizer)
+  commentId: M:Gestures.Gesture.SetNormalizer(Gestures.Normalizer)
+  parent: Gestures.Gesture
+  name: SetNormalizer(Normalizer)
+  nameWithType: Gesture.SetNormalizer(Normalizer)
+  fullName: Gestures.Gesture.SetNormalizer(Gestures.Normalizer)
+  spec.csharp:
+  - uid: Gestures.Gesture.SetNormalizer(Gestures.Normalizer)
+    name: SetNormalizer
+    nameWithType: Gesture.SetNormalizer
+    fullName: Gestures.Gesture.SetNormalizer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Gestures.Normalizer
+    name: Normalizer
+    nameWithType: Normalizer
+    fullName: Gestures.Normalizer
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.Gesture.SetNormalizer(Gestures.Normalizer)
+    name: SetNormalizer
+    nameWithType: Gesture.SetNormalizer
+    fullName: Gestures.Gesture.SetNormalizer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Gestures.Normalizer
+    name: Normalizer
+    nameWithType: Normalizer
+    fullName: Gestures.Normalizer
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.Gesture.AddOnceCheck(Gestures.Check)
+  commentId: M:Gestures.Gesture.AddOnceCheck(Gestures.Check)
+  parent: Gestures.Gesture
+  name: AddOnceCheck(Check)
+  nameWithType: Gesture.AddOnceCheck(Check)
+  fullName: Gestures.Gesture.AddOnceCheck(Gestures.Check)
+  spec.csharp:
+  - uid: Gestures.Gesture.AddOnceCheck(Gestures.Check)
+    name: AddOnceCheck
+    nameWithType: Gesture.AddOnceCheck
+    fullName: Gestures.Gesture.AddOnceCheck
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Gestures.Check
+    name: Check
+    nameWithType: Check
+    fullName: Gestures.Check
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.Gesture.AddOnceCheck(Gestures.Check)
+    name: AddOnceCheck
+    nameWithType: Gesture.AddOnceCheck
+    fullName: Gestures.Gesture.AddOnceCheck
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Gestures.Check
+    name: Check
+    nameWithType: Check
+    fullName: Gestures.Check
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.Gesture.AddOnceChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  commentId: M:Gestures.Gesture.AddOnceChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  parent: Gestures.Gesture
+  isExternal: true
+  name: AddOnceChecks(IEnumerable<Check>)
+  nameWithType: Gesture.AddOnceChecks(IEnumerable<Check>)
+  fullName: Gestures.Gesture.AddOnceChecks(System.Collections.Generic.IEnumerable<Gestures.Check>)
+  nameWithType.vb: Gesture.AddOnceChecks(IEnumerable(Of Check))
+  fullName.vb: Gestures.Gesture.AddOnceChecks(System.Collections.Generic.IEnumerable(Of Gestures.Check))
+  name.vb: AddOnceChecks(IEnumerable(Of Check))
+  spec.csharp:
+  - uid: Gestures.Gesture.AddOnceChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+    name: AddOnceChecks
+    nameWithType: Gesture.AddOnceChecks
+    fullName: Gestures.Gesture.AddOnceChecks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Gestures.Check
+    name: Check
+    nameWithType: Check
+    fullName: Gestures.Check
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.Gesture.AddOnceChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+    name: AddOnceChecks
+    nameWithType: Gesture.AddOnceChecks
+    fullName: Gestures.Gesture.AddOnceChecks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Gestures.Check
+    name: Check
+    nameWithType: Check
+    fullName: Gestures.Check
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.Gesture.AddAlwaysCheck(Gestures.Check)
+  commentId: M:Gestures.Gesture.AddAlwaysCheck(Gestures.Check)
+  parent: Gestures.Gesture
+  name: AddAlwaysCheck(Check)
+  nameWithType: Gesture.AddAlwaysCheck(Check)
+  fullName: Gestures.Gesture.AddAlwaysCheck(Gestures.Check)
+  spec.csharp:
+  - uid: Gestures.Gesture.AddAlwaysCheck(Gestures.Check)
+    name: AddAlwaysCheck
+    nameWithType: Gesture.AddAlwaysCheck
+    fullName: Gestures.Gesture.AddAlwaysCheck
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Gestures.Check
+    name: Check
+    nameWithType: Check
+    fullName: Gestures.Check
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.Gesture.AddAlwaysCheck(Gestures.Check)
+    name: AddAlwaysCheck
+    nameWithType: Gesture.AddAlwaysCheck
+    fullName: Gestures.Gesture.AddAlwaysCheck
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Gestures.Check
+    name: Check
+    nameWithType: Check
+    fullName: Gestures.Check
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.Gesture.AddAlwaysChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  commentId: M:Gestures.Gesture.AddAlwaysChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  parent: Gestures.Gesture
+  isExternal: true
+  name: AddAlwaysChecks(IEnumerable<Check>)
+  nameWithType: Gesture.AddAlwaysChecks(IEnumerable<Check>)
+  fullName: Gestures.Gesture.AddAlwaysChecks(System.Collections.Generic.IEnumerable<Gestures.Check>)
+  nameWithType.vb: Gesture.AddAlwaysChecks(IEnumerable(Of Check))
+  fullName.vb: Gestures.Gesture.AddAlwaysChecks(System.Collections.Generic.IEnumerable(Of Gestures.Check))
+  name.vb: AddAlwaysChecks(IEnumerable(Of Check))
+  spec.csharp:
+  - uid: Gestures.Gesture.AddAlwaysChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+    name: AddAlwaysChecks
+    nameWithType: Gesture.AddAlwaysChecks
+    fullName: Gestures.Gesture.AddAlwaysChecks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Gestures.Check
+    name: Check
+    nameWithType: Check
+    fullName: Gestures.Check
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.Gesture.AddAlwaysChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+    name: AddAlwaysChecks
+    nameWithType: Gesture.AddAlwaysChecks
+    fullName: Gestures.Gesture.AddAlwaysChecks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Gestures.Check
+    name: Check
+    nameWithType: Check
+    fullName: Gestures.Check
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.Gesture.AddSequentialCheck(Gestures.Check)
+  commentId: M:Gestures.Gesture.AddSequentialCheck(Gestures.Check)
+  parent: Gestures.Gesture
+  name: AddSequentialCheck(Check)
+  nameWithType: Gesture.AddSequentialCheck(Check)
+  fullName: Gestures.Gesture.AddSequentialCheck(Gestures.Check)
+  spec.csharp:
+  - uid: Gestures.Gesture.AddSequentialCheck(Gestures.Check)
+    name: AddSequentialCheck
+    nameWithType: Gesture.AddSequentialCheck
+    fullName: Gestures.Gesture.AddSequentialCheck
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Gestures.Check
+    name: Check
+    nameWithType: Check
+    fullName: Gestures.Check
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.Gesture.AddSequentialCheck(Gestures.Check)
+    name: AddSequentialCheck
+    nameWithType: Gesture.AddSequentialCheck
+    fullName: Gestures.Gesture.AddSequentialCheck
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Gestures.Check
+    name: Check
+    nameWithType: Check
+    fullName: Gestures.Check
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.Gesture.AddSequentialChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  commentId: M:Gestures.Gesture.AddSequentialChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+  parent: Gestures.Gesture
+  isExternal: true
+  name: AddSequentialChecks(IEnumerable<Check>)
+  nameWithType: Gesture.AddSequentialChecks(IEnumerable<Check>)
+  fullName: Gestures.Gesture.AddSequentialChecks(System.Collections.Generic.IEnumerable<Gestures.Check>)
+  nameWithType.vb: Gesture.AddSequentialChecks(IEnumerable(Of Check))
+  fullName.vb: Gestures.Gesture.AddSequentialChecks(System.Collections.Generic.IEnumerable(Of Gestures.Check))
+  name.vb: AddSequentialChecks(IEnumerable(Of Check))
+  spec.csharp:
+  - uid: Gestures.Gesture.AddSequentialChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+    name: AddSequentialChecks
+    nameWithType: Gesture.AddSequentialChecks
+    fullName: Gestures.Gesture.AddSequentialChecks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Gestures.Check
+    name: Check
+    nameWithType: Check
+    fullName: Gestures.Check
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.Gesture.AddSequentialChecks(System.Collections.Generic.IEnumerable{Gestures.Check})
+    name: AddSequentialChecks
+    nameWithType: Gesture.AddSequentialChecks
+    fullName: Gestures.Gesture.AddSequentialChecks
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Gestures.Check
+    name: Check
+    nameWithType: Check
+    fullName: Gestures.Check
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.Gesture.VisualizeGesture(Rect)
+  commentId: M:Gestures.Gesture.VisualizeGesture(Rect)
+  parent: Gestures.Gesture
+  isExternal: true
+  name: VisualizeGesture(Rect)
+  nameWithType: Gesture.VisualizeGesture(Rect)
+  fullName: Gestures.Gesture.VisualizeGesture(Rect)
+  spec.csharp:
+  - uid: Gestures.Gesture.VisualizeGesture(Rect)
+    name: VisualizeGesture
+    nameWithType: Gesture.VisualizeGesture
+    fullName: Gestures.Gesture.VisualizeGesture
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.Gesture.VisualizeGesture(Rect)
+    name: VisualizeGesture
+    nameWithType: Gesture.VisualizeGesture
+    fullName: Gestures.Gesture.VisualizeGesture
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Gestures.HeartGesture.#ctor*
+  commentId: Overload:Gestures.HeartGesture.#ctor
+  name: HeartGesture
+  nameWithType: HeartGesture.HeartGesture
+  fullName: Gestures.HeartGesture.HeartGesture

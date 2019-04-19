@@ -1,0 +1,56 @@
+### YamlMime:ManagedReference
+items:
+- uid: Gestures.FittedNormalizer.MinMaxDelegate
+  commentId: T:Gestures.FittedNormalizer.MinMaxDelegate
+  id: FittedNormalizer.MinMaxDelegate
+  parent: Gestures
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: FittedNormalizer.MinMaxDelegate
+  nameWithType: FittedNormalizer.MinMaxDelegate
+  fullName: Gestures.FittedNormalizer.MinMaxDelegate
+  type: Delegate
+  source:
+    id: MinMaxDelegate
+    path: ''
+    startLine: 1635
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public delegate float MinMaxDelegate(float a, float b);
+    parameters:
+    - id: a
+      type: System.Single
+    - id: b
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Delegate Function MinMaxDelegate(a As Single, b As Single) As Single
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Gestures
+  commentId: N:Gestures
+  name: Gestures
+  nameWithType: Gestures
+  fullName: Gestures
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

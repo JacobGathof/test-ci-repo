@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Gestures.GestureEvent
+  commentId: T:Gestures.GestureEvent
+  id: GestureEvent
+  parent: Gestures
+  children:
+  - Gestures.GestureEvent.#ctor
+  - Gestures.GestureEvent.#ctor(UnityAction{Gestures.GestureMetaData})
+  langs:
+  - csharp
+  - vb
+  name: GestureEvent
+  nameWithType: GestureEvent
+  fullName: Gestures.GestureEvent
+  type: Class
+  source:
+    id: GestureEvent
+    path: ''
+    startLine: 940
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: "\nWrapper class for a Unity Event that takes in GestureMetaData as a parameter\n"
+  example: []
+  syntax:
+    content: 'public class GestureEvent : UnityEvent<GestureMetaData>'
+    content.vb: >-
+      Public Class GestureEvent
+
+          Inherits UnityEvent(Of GestureMetaData)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Gestures.GestureEvent.#ctor
+  commentId: M:Gestures.GestureEvent.#ctor
+  id: '#ctor'
+  parent: Gestures.GestureEvent
+  langs:
+  - csharp
+  - vb
+  name: GestureEvent()
+  nameWithType: GestureEvent.GestureEvent()
+  fullName: Gestures.GestureEvent.GestureEvent()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 941
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public GestureEvent()
+    content.vb: Public Sub New
+  overload: Gestures.GestureEvent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.GestureEvent.#ctor(UnityAction{Gestures.GestureMetaData})
+  commentId: M:Gestures.GestureEvent.#ctor(UnityAction{Gestures.GestureMetaData})
+  id: '#ctor(UnityAction{Gestures.GestureMetaData})'
+  parent: Gestures.GestureEvent
+  langs:
+  - csharp
+  - vb
+  name: GestureEvent(UnityAction<GestureMetaData>)
+  nameWithType: GestureEvent.GestureEvent(UnityAction<GestureMetaData>)
+  fullName: Gestures.GestureEvent.GestureEvent(UnityAction<Gestures.GestureMetaData>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 942
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public GestureEvent(UnityAction<GestureMetaData> action)
+    parameters:
+    - id: action
+      type: UnityAction{Gestures.GestureMetaData}
+    content.vb: Public Sub New(action As UnityAction(Of GestureMetaData))
+  overload: Gestures.GestureEvent.#ctor*
+  nameWithType.vb: GestureEvent.GestureEvent(UnityAction(Of GestureMetaData))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Gestures.GestureEvent.GestureEvent(UnityAction(Of Gestures.GestureMetaData))
+  name.vb: GestureEvent(UnityAction(Of GestureMetaData))
+references:
+- uid: Gestures
+  commentId: N:Gestures
+  name: Gestures
+  nameWithType: Gestures
+  fullName: Gestures
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Gestures.GestureEvent.#ctor*
+  commentId: Overload:Gestures.GestureEvent.#ctor
+  name: GestureEvent
+  nameWithType: GestureEvent.GestureEvent
+  fullName: Gestures.GestureEvent.GestureEvent
+- uid: UnityAction{Gestures.GestureMetaData}
+  commentId: '!:UnityAction{Gestures.GestureMetaData}'
+  definition: UnityAction`1
+  name: UnityAction<GestureMetaData>
+  nameWithType: UnityAction<GestureMetaData>
+  fullName: UnityAction<Gestures.GestureMetaData>
+  nameWithType.vb: UnityAction(Of GestureMetaData)
+  fullName.vb: UnityAction(Of Gestures.GestureMetaData)
+  name.vb: UnityAction(Of GestureMetaData)
+  spec.csharp:
+  - uid: UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Gestures.GestureMetaData
+    name: GestureMetaData
+    nameWithType: GestureMetaData
+    fullName: Gestures.GestureMetaData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Gestures.GestureMetaData
+    name: GestureMetaData
+    nameWithType: GestureMetaData
+    fullName: Gestures.GestureMetaData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityAction`1
+  isExternal: true
+  name: UnityAction<>
+  nameWithType: UnityAction<>
+  fullName: UnityAction<>
+  nameWithType.vb: UnityAction(Of )
+  fullName.vb: UnityAction(Of )
+  name.vb: UnityAction(Of )
+  spec.csharp:
+  - uid: UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityAction`1
+    name: UnityAction
+    nameWithType: UnityAction
+    fullName: UnityAction
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

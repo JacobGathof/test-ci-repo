@@ -1,0 +1,372 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.DropDownControl.Option
+  commentId: T:UI.DropDownControl.Option
+  id: DropDownControl.Option
+  parent: UI
+  children:
+  - UI.DropDownControl.Option.#ctor
+  - UI.DropDownControl.Option.buttonGrad
+  - UI.DropDownControl.Option.Disabled
+  - UI.DropDownControl.Option.extras
+  - UI.DropDownControl.Option.extrasDisabled
+  - UI.DropDownControl.Option.extrasHovered
+  - UI.DropDownControl.Option.extrasPressed
+  - UI.DropDownControl.Option.Hovered
+  - UI.DropDownControl.Option.label
+  - UI.DropDownControl.Option.Pressed
+  langs:
+  - csharp
+  - vb
+  name: DropDownControl.Option
+  nameWithType: DropDownControl.Option
+  fullName: UI.DropDownControl.Option
+  type: Class
+  source:
+    id: Option
+    path: ''
+    startLine: 2417
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  summary: "\nThis is an object that contains all the needed information about the dropdown buttons\n"
+  remarks: "\nThis is designed to be used in a array that holds all the dropdowns. \nThe serialization also helps make all the items able to be set in the inspector\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Option
+    content.vb: >-
+      <Serializable>
+
+      Public Class Option
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UI.DropDownControl.Option.label
+  commentId: F:UI.DropDownControl.Option.label
+  id: label
+  parent: UI.DropDownControl.Option
+  langs:
+  - csharp
+  - vb
+  name: label
+  nameWithType: DropDownControl.Option.label
+  fullName: UI.DropDownControl.Option.label
+  type: Field
+  source:
+    id: label
+    path: ''
+    startLine: 2421
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public string label
+    return:
+      type: System.String
+    content.vb: Public label As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.DropDownControl.Option.extras
+  commentId: F:UI.DropDownControl.Option.extras
+  id: extras
+  parent: UI.DropDownControl.Option
+  langs:
+  - csharp
+  - vb
+  name: extras
+  nameWithType: DropDownControl.Option.extras
+  fullName: UI.DropDownControl.Option.extras
+  type: Field
+  source:
+    id: extras
+    path: ''
+    startLine: 2423
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public GameObject extras
+    return:
+      type: GameObject
+    content.vb: Public extras As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.DropDownControl.Option.extrasHovered
+  commentId: F:UI.DropDownControl.Option.extrasHovered
+  id: extrasHovered
+  parent: UI.DropDownControl.Option
+  langs:
+  - csharp
+  - vb
+  name: extrasHovered
+  nameWithType: DropDownControl.Option.extrasHovered
+  fullName: UI.DropDownControl.Option.extrasHovered
+  type: Field
+  source:
+    id: extrasHovered
+    path: ''
+    startLine: 2425
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public GameObject extrasHovered
+    return:
+      type: GameObject
+    content.vb: Public extrasHovered As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.DropDownControl.Option.extrasPressed
+  commentId: F:UI.DropDownControl.Option.extrasPressed
+  id: extrasPressed
+  parent: UI.DropDownControl.Option
+  langs:
+  - csharp
+  - vb
+  name: extrasPressed
+  nameWithType: DropDownControl.Option.extrasPressed
+  fullName: UI.DropDownControl.Option.extrasPressed
+  type: Field
+  source:
+    id: extrasPressed
+    path: ''
+    startLine: 2427
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public GameObject extrasPressed
+    return:
+      type: GameObject
+    content.vb: Public extrasPressed As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.DropDownControl.Option.extrasDisabled
+  commentId: F:UI.DropDownControl.Option.extrasDisabled
+  id: extrasDisabled
+  parent: UI.DropDownControl.Option
+  langs:
+  - csharp
+  - vb
+  name: extrasDisabled
+  nameWithType: DropDownControl.Option.extrasDisabled
+  fullName: UI.DropDownControl.Option.extrasDisabled
+  type: Field
+  source:
+    id: extrasDisabled
+    path: ''
+    startLine: 2429
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public GameObject extrasDisabled
+    return:
+      type: GameObject
+    content.vb: Public extrasDisabled As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.DropDownControl.Option.Pressed
+  commentId: F:UI.DropDownControl.Option.Pressed
+  id: Pressed
+  parent: UI.DropDownControl.Option
+  langs:
+  - csharp
+  - vb
+  name: Pressed
+  nameWithType: DropDownControl.Option.Pressed
+  fullName: UI.DropDownControl.Option.Pressed
+  type: Field
+  source:
+    id: Pressed
+    path: ''
+    startLine: 2431
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public bool Pressed
+    return:
+      type: System.Boolean
+    content.vb: Public Pressed As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.DropDownControl.Option.Disabled
+  commentId: F:UI.DropDownControl.Option.Disabled
+  id: Disabled
+  parent: UI.DropDownControl.Option
+  langs:
+  - csharp
+  - vb
+  name: Disabled
+  nameWithType: DropDownControl.Option.Disabled
+  fullName: UI.DropDownControl.Option.Disabled
+  type: Field
+  source:
+    id: Disabled
+    path: ''
+    startLine: 2433
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public bool Disabled
+    return:
+      type: System.Boolean
+    content.vb: Public Disabled As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.DropDownControl.Option.Hovered
+  commentId: F:UI.DropDownControl.Option.Hovered
+  id: Hovered
+  parent: UI.DropDownControl.Option
+  langs:
+  - csharp
+  - vb
+  name: Hovered
+  nameWithType: DropDownControl.Option.Hovered
+  fullName: UI.DropDownControl.Option.Hovered
+  type: Field
+  source:
+    id: Hovered
+    path: ''
+    startLine: 2435
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public bool Hovered
+    return:
+      type: System.Boolean
+    content.vb: Public Hovered As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.DropDownControl.Option.buttonGrad
+  commentId: F:UI.DropDownControl.Option.buttonGrad
+  id: buttonGrad
+  parent: UI.DropDownControl.Option
+  langs:
+  - csharp
+  - vb
+  name: buttonGrad
+  nameWithType: DropDownControl.Option.buttonGrad
+  fullName: UI.DropDownControl.Option.buttonGrad
+  type: Field
+  source:
+    id: buttonGrad
+    path: ''
+    startLine: 2437
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public Gradient buttonGrad
+    return:
+      type: Gradient
+    content.vb: Public buttonGrad As Gradient
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: UI.DropDownControl.Option.#ctor
+  commentId: M:UI.DropDownControl.Option.#ctor
+  id: '#ctor'
+  parent: UI.DropDownControl.Option
+  langs:
+  - csharp
+  - vb
+  name: Option()
+  nameWithType: DropDownControl.Option.Option()
+  fullName: UI.DropDownControl.Option.Option()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2438
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: public Option()
+    content.vb: Public Sub New
+  overload: UI.DropDownControl.Option.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: UI
+  commentId: N:UI
+  name: UI
+  nameWithType: UI
+  fullName: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Gradient
+  isExternal: true
+  name: Gradient
+  nameWithType: Gradient
+  fullName: Gradient
+- uid: UI.DropDownControl.Option.#ctor*
+  commentId: Overload:UI.DropDownControl.Option.#ctor
+  name: Option
+  nameWithType: DropDownControl.Option.Option
+  fullName: UI.DropDownControl.Option.Option

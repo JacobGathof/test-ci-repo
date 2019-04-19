@@ -1,0 +1,280 @@
+### YamlMime:ManagedReference
+items:
+- uid: Gestures.RadiusCheck
+  commentId: T:Gestures.RadiusCheck
+  id: RadiusCheck
+  parent: Gestures
+  children:
+  - Gestures.RadiusCheck.#ctor(Vector3,System.Single)
+  - Gestures.RadiusCheck.CheckPasses(Gestures.GTransform)
+  - Gestures.RadiusCheck.VisualizeCheck(Rect)
+  langs:
+  - csharp
+  - vb
+  name: RadiusCheck
+  nameWithType: RadiusCheck
+  fullName: Gestures.RadiusCheck
+  type: Class
+  source:
+    id: RadiusCheck
+    path: ''
+    startLine: 575
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: "\nA Check to check if a GTransform is within a certain radius of another point.\n"
+  example: []
+  syntax:
+    content: 'public class RadiusCheck : Check'
+    content.vb: >-
+      Public Class RadiusCheck
+
+          Inherits Check
+  inheritance:
+  - System.Object
+  - Gestures.Check
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Gestures.RadiusCheck.#ctor(Vector3,System.Single)
+  commentId: M:Gestures.RadiusCheck.#ctor(Vector3,System.Single)
+  id: '#ctor(Vector3,System.Single)'
+  parent: Gestures.RadiusCheck
+  langs:
+  - csharp
+  - vb
+  name: RadiusCheck(Vector3, Single)
+  nameWithType: RadiusCheck.RadiusCheck(Vector3, Single)
+  fullName: Gestures.RadiusCheck.RadiusCheck(Vector3, System.Single)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 584
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public RadiusCheck(Vector3 position, float radius = 0.4F)
+    parameters:
+    - id: position
+      type: Vector3
+      description: Position vector to check against.
+    - id: radius
+      type: System.Single
+      description: A radius tolerance away from the point.
+    content.vb: Public Sub New(position As Vector3, radius As Single = 0.4F)
+  overload: Gestures.RadiusCheck.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Gestures.RadiusCheck.CheckPasses(Gestures.GTransform)
+  commentId: M:Gestures.RadiusCheck.CheckPasses(Gestures.GTransform)
+  id: CheckPasses(Gestures.GTransform)
+  parent: Gestures.RadiusCheck
+  langs:
+  - csharp
+  - vb
+  name: CheckPasses(GTransform)
+  nameWithType: RadiusCheck.CheckPasses(GTransform)
+  fullName: Gestures.RadiusCheck.CheckPasses(Gestures.GTransform)
+  type: Method
+  source:
+    id: CheckPasses
+    path: ''
+    startLine: 589
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public override float CheckPasses(GTransform gTransform)
+    parameters:
+    - id: gTransform
+      type: Gestures.GTransform
+    return:
+      type: System.Single
+    content.vb: Public Overrides Function CheckPasses(gTransform As GTransform) As Single
+  overridden: Gestures.Check.CheckPasses(Gestures.GTransform)
+  overload: Gestures.RadiusCheck.CheckPasses*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Gestures.RadiusCheck.VisualizeCheck(Rect)
+  commentId: M:Gestures.RadiusCheck.VisualizeCheck(Rect)
+  id: VisualizeCheck(Rect)
+  parent: Gestures.RadiusCheck
+  langs:
+  - csharp
+  - vb
+  name: VisualizeCheck(Rect)
+  nameWithType: RadiusCheck.VisualizeCheck(Rect)
+  fullName: Gestures.RadiusCheck.VisualizeCheck(Rect)
+  type: Method
+  source:
+    id: VisualizeCheck
+    path: ''
+    startLine: 597
+  assemblies:
+  - cs.temp.dll
+  namespace: Gestures
+  syntax:
+    content: public override void VisualizeCheck(Rect grid)
+    parameters:
+    - id: grid
+      type: Rect
+    content.vb: Public Overrides Sub VisualizeCheck(grid As Rect)
+  overridden: Gestures.Check.VisualizeCheck(Rect)
+  overload: Gestures.RadiusCheck.VisualizeCheck*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Gestures
+  commentId: N:Gestures
+  name: Gestures
+  nameWithType: Gestures
+  fullName: Gestures
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Gestures.Check
+  commentId: T:Gestures.Check
+  parent: Gestures
+  name: Check
+  nameWithType: Check
+  fullName: Gestures.Check
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Gestures.RadiusCheck.#ctor*
+  commentId: Overload:Gestures.RadiusCheck.#ctor
+  name: RadiusCheck
+  nameWithType: RadiusCheck.RadiusCheck
+  fullName: Gestures.RadiusCheck.RadiusCheck
+- uid: Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Gestures.Check.CheckPasses(Gestures.GTransform)
+  commentId: M:Gestures.Check.CheckPasses(Gestures.GTransform)
+  parent: Gestures.Check
+  name: CheckPasses(GTransform)
+  nameWithType: Check.CheckPasses(GTransform)
+  fullName: Gestures.Check.CheckPasses(Gestures.GTransform)
+  spec.csharp:
+  - uid: Gestures.Check.CheckPasses(Gestures.GTransform)
+    name: CheckPasses
+    nameWithType: Check.CheckPasses
+    fullName: Gestures.Check.CheckPasses
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Gestures.GTransform
+    name: GTransform
+    nameWithType: GTransform
+    fullName: Gestures.GTransform
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.Check.CheckPasses(Gestures.GTransform)
+    name: CheckPasses
+    nameWithType: Check.CheckPasses
+    fullName: Gestures.Check.CheckPasses
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Gestures.GTransform
+    name: GTransform
+    nameWithType: GTransform
+    fullName: Gestures.GTransform
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.RadiusCheck.CheckPasses*
+  commentId: Overload:Gestures.RadiusCheck.CheckPasses
+  name: CheckPasses
+  nameWithType: RadiusCheck.CheckPasses
+  fullName: Gestures.RadiusCheck.CheckPasses
+- uid: Gestures.GTransform
+  commentId: T:Gestures.GTransform
+  parent: Gestures
+  name: GTransform
+  nameWithType: GTransform
+  fullName: Gestures.GTransform
+- uid: Gestures.Check.VisualizeCheck(Rect)
+  commentId: M:Gestures.Check.VisualizeCheck(Rect)
+  parent: Gestures.Check
+  isExternal: true
+  name: VisualizeCheck(Rect)
+  nameWithType: Check.VisualizeCheck(Rect)
+  fullName: Gestures.Check.VisualizeCheck(Rect)
+  spec.csharp:
+  - uid: Gestures.Check.VisualizeCheck(Rect)
+    name: VisualizeCheck
+    nameWithType: Check.VisualizeCheck
+    fullName: Gestures.Check.VisualizeCheck
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Gestures.Check.VisualizeCheck(Rect)
+    name: VisualizeCheck
+    nameWithType: Check.VisualizeCheck
+    fullName: Gestures.Check.VisualizeCheck
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Gestures.RadiusCheck.VisualizeCheck*
+  commentId: Overload:Gestures.RadiusCheck.VisualizeCheck
+  name: VisualizeCheck
+  nameWithType: RadiusCheck.VisualizeCheck
+  fullName: Gestures.RadiusCheck.VisualizeCheck
+- uid: Rect
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: Rect

@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: UI.SetCorrectCameraHeight
+  commentId: T:UI.SetCorrectCameraHeight
+  id: SetCorrectCameraHeight
+  parent: UI
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SetCorrectCameraHeight
+  nameWithType: SetCorrectCameraHeight
+  fullName: UI.SetCorrectCameraHeight
+  type: Class
+  source:
+    id: SetCorrectCameraHeight
+    path: ''
+    startLine: 3610
+  assemblies:
+  - cs.temp.dll
+  namespace: UI
+  syntax:
+    content: 'public class SetCorrectCameraHeight : MonoBehaviour'
+    content.vb: >-
+      Public Class SetCorrectCameraHeight
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: UI
+  commentId: N:UI
+  name: UI
+  nameWithType: UI
+  fullName: UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
