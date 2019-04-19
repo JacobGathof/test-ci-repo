@@ -11,4 +11,8 @@ mono dfxd/docfx.exe docfx.json
 
 shopt -s extglob 
 rm -rf !(docs)
+cd docs
+mv * ../
+cd ..
+rm -rf docs
 ls
