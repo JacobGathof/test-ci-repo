@@ -22,7 +22,7 @@ if [ "$TRAVIS_BRANCH" = "testing" ]; then
 	git config --global user.email "travis@travis-ci.org"
 	git config --global user.name "Travis CI"
 
-	git checkout master
+	git checkout -b master
 	echo "Test" > test.txt
 	git add .
 	git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
@@ -39,7 +39,7 @@ if [ "$TRAVIS_BRANCH" = "master" ]; then
 	git config --global user.email "travis@travis-ci.org"
 	git config --global user.name "Travis CI"
 
-	git checkout gh-pages
+	git checkout -b gh-pages
 	echo "Test" > doc.txt
 	git add .
 	git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
