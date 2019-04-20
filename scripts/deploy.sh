@@ -27,5 +27,4 @@ git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
 
 ls
 
-git remote add origin https://${GITHUB_API_KEY}@github.com/JacobGathof/test-ci-repo.git
-git push -u origin gh-pages 
+git push https://${GITHUB_API_KEY}@github.com/JacobGathof/test-ci-repo.git
