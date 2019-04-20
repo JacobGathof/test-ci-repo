@@ -15,13 +15,16 @@ echo "Testing Build Process"
 #mv * ../
 #cd ..
 #rm -rf temp
+ls 
 
 git config --global user.email "travis@travis-ci.org"
 git config --global user.name "Travis CI"
 
 git checkout -b gh-pages
 git add .
-git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
+git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
+
+ls
 
 git remote add origin https://${GITHUB_API_KEY}@github.com/JacobGathof/test-ci-repo.git
 git push -u origin gh-pages 
