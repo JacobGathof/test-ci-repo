@@ -15,16 +15,38 @@ echo "Testing Build Process"
 #mv * ../
 #cd ..
 #rm -rf temp
-ls 
 
-git config --global user.email "travis@travis-ci.org"
-git config --global user.name "Travis CI"
+if [ "$TRAVIS_BRANCH" = "testing" ]; then
+	echo "Running Tests, push to master"
+  
+	git config --global user.email "travis@travis-ci.org"
+	git config --global user.name "Travis CI"
 
-git checkout -b gh-pages
-echo "Test" > test.txt
-git add .
-git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
+	git checkout master
+	echo "Test" > test.txt
+	git add .
+	git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
 
-ls
+	ls
 
-git push https://${GITHUB_API_KEY}@github.com/JacobGathof/test-ci-repo.git
+	git push https://${GITHUB_API_KEY}@github.com/JacobGathof/test-ci-repo.git  
+fi
+
+
+if [ "$TRAVIS_BRANCH" = "master" ]; then
+	echo "Running API Docs, push to gh-pages"
+  
+	git config --global user.email "travis@travis-ci.org"
+	git config --global user.name "Travis CI"
+
+	git checkout gh-pages
+	echo "Test" > doc.txt
+	git add .
+	git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
+
+	ls
+
+	git push https://${GITHUB_API_KEY}@github.com/JacobGathof/test-ci-repo.git
+	  
+fi
+
