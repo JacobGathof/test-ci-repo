@@ -16,22 +16,17 @@ echo "Testing Build Process"
 #cd ..
 #rm -rf temp
 
-if [ "$TRAVIS_BRANCH" = "testing" ]; then
-	echo "Running Tests, push to master"
-  
-	git config --global user.email "travis@travis-ci.org"
-	git config --global user.name "Travis CI"
+wget -O doxygen.linux.bin.tar.gz http://doxygen.nl/files/doxygen-1.8.15.linux.bin.tar.gz
+tar zxvf doxygen.linux.bin.tar.gz
+./doxygen.linux.bin
+doxygen.linux/doxygen.exe Doxyfile
 
-	git checkout -b master
-	echo "Test" > test.txt
-	git add .
-	git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
-
-	ls
-
-	git push https://${GITHUB_API_KEY}@github.com/JacobGathof/test-ci-repo.git  
-fi
-
+shopt -s extglob 
+rm -rf !(html)
+cd html
+mv * ../
+cd ..
+rm -rf html
 
 if [ "$TRAVIS_BRANCH" = "master" ]; then
 	echo "Running API Docs, push to gh-pages"
@@ -46,7 +41,7 @@ if [ "$TRAVIS_BRANCH" = "master" ]; then
 
 	ls
 
-	git push https://${GITHUB_API_KEY}@github.com/JacobGathof/test-ci-repo.git
+	git push -f https://${GITHUB_API_KEY}@github.com/JacobGathof/test-ci-repo.git
 	  
 fi
 
