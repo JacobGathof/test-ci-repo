@@ -16,10 +16,16 @@ echo "Testing Build Process"
 #cd ..
 #rm -rf temp
 
-wget -O doxygen.linux.bin.tar.gz http://doxygen.nl/files/doxygen-1.8.15.linux.bin.tar.gz
-tar zxvf doxygen.linux.bin.tar.gz
-./doxygen.linux.bin
-doxygen.linux/doxygen.exe Doxyfile
+git clone https://github.com/doxygen/doxygen.git
+cd doxygen
+mkdir build
+cd build
+cmake -G "Unix Makefiles" ..
+make
+ls
+cd ..
+ls
+doxygen.exe Doxyfile
 
 shopt -s extglob 
 rm -rf !(html)
