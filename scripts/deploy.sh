@@ -16,6 +16,7 @@ echo "Testing Build Process"
 #cd ..
 #rm -rf temp
 
+sudo apt-get update
 sudo apt-get install doxygen
 doxygen Doxyfile
 
