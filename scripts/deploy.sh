@@ -16,16 +16,8 @@ echo "Testing Build Process"
 #cd ..
 #rm -rf temp
 
-git clone https://github.com/doxygen/doxygen.git
-cd doxygen
-mkdir build
-cd build
-cmake -G "Unix Makefiles" ..
-make
-ls
-cd ..
-ls
-doxygen.exe Doxyfile
+apt-get install doxygen
+doxygen Doxyfile
 
 shopt -s extglob 
 rm -rf !(html)
