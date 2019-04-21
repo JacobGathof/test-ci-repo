@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['setactivatinglayer',['setActivatinglayer',['../class_u_i_1_1_new_button_script.html#a2f0c66377883946a6a79548db1a09112',1,'UI.NewButtonScript.setActivatinglayer()'],['../class_u_i_1_1_drop_down_control.html#a70209b613ee6dc386ef74e9681edc5f5',1,'UI.DropDownControl.setActivatinglayer()']]],
+  ['setbufferwrap',['SetBufferWrap',['../class_gestures_1_1_gesture_monitor.html#a73fc7abc43514e50c57b9ab13b7bac8e',1,'Gestures::GestureMonitor']]],
+  ['setcircular',['SetCircular',['../class_gestures_1_1_g_transform_buffer.html#ad2eb92a92054701a3ed5f0e18fd64875',1,'Gestures::GTransformBuffer']]],
+  ['setdisabled',['setDisabled',['../class_u_i_1_1_new_button_script.html#a1b59e9f7abe691fa7325339824060285',1,'UI::NewButtonScript']]],
+  ['setenabled',['setEnabled',['../class_u_i_1_1_new_button_script.html#a22b5150d8d818c2a10c314265e7f09ba',1,'UI::NewButtonScript']]],
+  ['sethovered',['setHovered',['../class_u_i_1_1_new_button_script.html#aa582048e34b9d4ac3d493c0805e770ca',1,'UI::NewButtonScript']]],
+  ['sethoveringlayer',['setHoveringlayer',['../class_u_i_1_1_new_button_script.html#ac9a3cf8828e7ae20360b8f7668ccda6f',1,'UI.NewButtonScript.setHoveringlayer()'],['../class_u_i_1_1_drop_down_control.html#ae8b98ea63f8a824b64896ee81af2894a',1,'UI.DropDownControl.setHoveringlayer()']]],
+  ['setmaxbuffersize',['SetMaxBufferSize',['../class_gestures_1_1_gesture_monitor.html#a0013e621545b3ad95d09c910123914cb',1,'Gestures::GestureMonitor']]],
+  ['setmaxsize',['SetMaxSize',['../class_gestures_1_1_g_transform_buffer.html#aea6a3d480ea85af8945ef0c10db3ca98',1,'Gestures::GTransformBuffer']]],
+  ['setnormalizer',['SetNormalizer',['../class_gestures_1_1_gesture.html#a696e807e09dd5389ccc53eee4b8cc05a',1,'Gestures::Gesture']]],
+  ['setpointer',['SetPointer',['../class_controller_selection_1_1_o_v_r_pointer_visualizer.html#a7d0c74288bdd82ad0ee1d1513b33d4e8',1,'ControllerSelection::OVRPointerVisualizer']]],
+  ['setpointervisibility',['SetPointerVisibility',['../class_controller_selection_1_1_o_v_r_pointer_visualizer.html#a391c6ec69cedb9691d01a02f50ad5459',1,'ControllerSelection::OVRPointerVisualizer']]],
+  ['setpressed',['setPressed',['../class_u_i_1_1_new_button_script.html#abf9623698a0b37c53681730a82e51e91',1,'UI::NewButtonScript']]],
+  ['settrackallgestures',['SetTrackAllGestures',['../class_gestures_1_1_gesture_monitor.html#ac402c366333ff523dd6c0bfdc80a4b32',1,'Gestures::GestureMonitor']]],
+  ['settrackgesture',['SetTrackGesture',['../class_gestures_1_1_gesture_monitor.html#ac38cd234bc1ca3431e16a6cb51fd7183',1,'Gestures.GestureMonitor.SetTrackGesture(string gname, bool enabled)'],['../class_gestures_1_1_gesture_monitor.html#aedbac898a35ac1f9acd24b0b49fdbdd3',1,'Gestures.GestureMonitor.SetTrackGesture(List&lt; string &gt; names, bool enabled)']]],
+  ['shouldactivatemodule',['ShouldActivateModule',['../class_unity_engine_1_1_event_systems_1_1_o_v_r_input_module.html#acd8ad0240a8e024073d747144638238c',1,'UnityEngine::EventSystems::OVRInputModule']]],
+  ['size',['Size',['../class_gestures_1_1_g_transform_buffer.html#a1aa2f4d851aab1bc3a408899ca60ee93',1,'Gestures::GTransformBuffer']]],
+  ['sliderupdate',['SliderUpdate',['../class_u_i_1_1_drop_down_control.html#aac62f3b65c119aa4d217733a4ec903b3',1,'UI::DropDownControl']]],
+  ['speedcheck',['SpeedCheck',['../class_gestures_1_1_speed_check.html#a43e01776bee1ac953eb203e91cd496c5',1,'Gestures::SpeedCheck']]],
+  ['squaregesture',['SquareGesture',['../class_gestures_1_1_square_gesture.html#a537e33af2b1aa6e468a727e617b9af99',1,'Gestures::SquareGesture']]],
+  ['start',['Start',['../class_o_v_r_camera_rig.html#a81afd69bea5ef7287fe2838a03371332',1,'OVRCameraRig']]],
+  ['swipeadjustedposition',['SwipeAdjustedPosition',['../class_unity_engine_1_1_event_systems_1_1_o_v_r_input_module.html#ab496370a5297e2dca69251d151f75f50',1,'UnityEngine::EventSystems::OVRInputModule']]]
+];

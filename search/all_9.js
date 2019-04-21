@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['icontroller',['IController',['../class_gestures_1_1_i_controller.html',1,'Gestures']]],
+  ['icontroller_2ecs',['IController.cs',['../_i_controller_8cs.html',1,'']]],
+  ['initiallayer',['initialLayer',['../class_u_i_1_1_pointer.html#a3f33b1eed76653a0ba2d012ecd77000a',1,'UI::Pointer']]],
+  ['inputactionspersecond',['inputActionsPerSecond',['../class_unity_engine_1_1_event_systems_1_1_o_v_r_input_module.html#a885b1b6bcba5f28ff5202ba8dee3cb5e',1,'UnityEngine::EventSystems::OVRInputModule']]],
+  ['inputfocusacquired',['InputFocusAcquired',['../class_o_v_r_manager.html#a1a81f67a4ed67e392e0cbfbb1b459cda',1,'OVRManager']]],
+  ['inputfocuslost',['InputFocusLost',['../class_o_v_r_manager.html#aff246573c412d4fa68c06cefbc72ea7e',1,'OVRManager']]],
+  ['inputmode',['InputMode',['../class_unity_engine_1_1_event_systems_1_1_o_v_r_input_module.html#ae79bc7e3096c65401a148571bbd5eb34',1,'UnityEngine.EventSystems.OVRInputModule.InputMode()'],['../class_unity_engine_1_1_event_systems_1_1_o_v_r_input_module.html#a234ea88f6c6dd6c693219978c8c073c8',1,'UnityEngine.EventSystems.OVRInputModule.inputMode()']]],
+  ['instance',['instance',['../class_o_v_r_manager.html#a10c7c50d4c6e83d28e5ceea4bab67e35',1,'OVRManager']]],
+  ['interactable',['interactable',['../class_u_i_1_1_drop_down_control.html#a5a316b694e49bc80ba00cd79b9c6cc6e',1,'UI::DropDownControl']]],
+  ['interactable_5f',['interactable_',['../class_u_i_1_1_drop_down_control.html#a0ef5320bc81b32683bbd6f832b0b7826',1,'UI::DropDownControl']]],
+  ['invertswipexaxis',['InvertSwipeXAxis',['../class_unity_engine_1_1_event_systems_1_1_o_v_r_input_module.html#af0037a2509759caa7732520a448a6bb8',1,'UnityEngine::EventSystems::OVRInputModule']]],
+  ['isactive',['isActive',['../class_u_i_1_1_button_script.html#a9abaacfb6ea0e3ae7a61614318450c99',1,'UI::ButtonScript']]],
+  ['isadaptiveressupportedbyengine',['IsAdaptiveResSupportedByEngine',['../class_o_v_r_manager.html#abc78525c839c485f2e1815ee87bc7754',1,'OVRManager']]],
+  ['iscenter',['isCenter',['../class_u_i_1_1_disappear_at_distance.html#a76c19b90732fffe8acc86c1c39baceae',1,'UI.DisappearAtDistance.isCenter()'],['../class_u_i_1_1_scale_to_user.html#a7b86147167d7ba33f4007ddf2e1ba63d',1,'UI.ScaleToUser.isCenter()']]],
+  ['isenabled',['isEnabled',['../class_gestures_1_1_gesture.html#a9c74c9587e0134a78a5eb4b5489c0b75',1,'Gestures::Gesture']]],
+  ['isfocussed',['IsFocussed',['../class_controller_selection_1_1_o_v_r_raycaster.html#a5d127aa69c6c88a02f589cd1aeb93d60',1,'ControllerSelection::OVRRaycaster']]],
+  ['ishmdpresent',['isHmdPresent',['../class_o_v_r_manager.html#a564db1fc6953e6a1eca79820cc57299d',1,'OVRManager']]],
+  ['ismodulesupported',['IsModuleSupported',['../class_unity_engine_1_1_event_systems_1_1_o_v_r_input_module.html#a2a9378550b027cfaa8b108fddc471433',1,'UnityEngine::EventSystems::OVRInputModule']]],
+  ['ispowersavingactive',['isPowerSavingActive',['../class_o_v_r_manager.html#a706e7758e2cd724a649b48ae43bb895f',1,'OVRManager']]],
+  ['issupportedplatform',['isSupportedPlatform',['../class_o_v_r_manager.html#a2cf90ec494e4cf6bc466b848f3887919',1,'OVRManager']]],
+  ['isuserpresent',['isUserPresent',['../class_o_v_r_manager.html#a5e16257dc5068ef2fb2a1c383977025d',1,'OVRManager']]],
+  ['isvisible',['isVisible',['../class_u_i_1_1_disappear_at_distance.html#a1108800c974d3d4d848b7ecb1bd3e979',1,'UI::DisappearAtDistance']]],
+  ['itemfade',['ItemFade',['../class_u_i_1_1_new_button_script.html#a825ed5122412c180ee805da6f9f5d9e5',1,'UI.NewButtonScript.ItemFade()'],['../class_u_i_1_1_drop_down_control.html#a2f3c44a14fd366f1e98b860443c5679e',1,'UI.DropDownControl.ItemFade()']]],
+  ['itemrenderer',['itemRenderer',['../class_u_i_1_1_disappear_at_distance.html#a095791a341ffa1e903bee71598583193',1,'UI::DisappearAtDistance']]]
+];
