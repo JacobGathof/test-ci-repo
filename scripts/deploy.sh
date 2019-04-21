@@ -16,7 +16,7 @@ echo "Testing Build Process"
 #cd ..
 #rm -rf temp
 
-apt-get install doxygen
+sudo apt-get install doxygen
 doxygen Doxyfile
 
 shopt -s extglob 
